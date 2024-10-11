@@ -1,4 +1,3 @@
-
 # Chatbot Layanan Akademik
 
 Repositori ini berisi sebuah proyek tugas akhir (skripsi) yang berupa chatbot layanan akademik dengan menerapkan algoritma LSTM. Penerapan algoritma LSTM dibantu dengan penggunaan Tensorflow yang diintegrasikan pada web dengan menggunakan Flask. Tampilan web dibuat sedikit mirip dengan tampilan web kampus dengan tujuan untuk memberikan pengalaman nyata pada pengguna terkait layanan akademik melalui chatbot. Layanan akademik yang dimaksud ialah layanan berupa tanya jawab terkait informasi seputar akademik kampus kepada pengguna.
