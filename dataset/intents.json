@@ -1,0 +1,2892 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "hallo",
+          "hai",
+          "halo",
+          "hei",
+          "hi",
+          "hy",
+          "pagi",
+          "morning",
+          "siang",
+          "afternoon",
+          "sore",
+          "malam",
+          "bro",
+          "sis",
+          "kawan",
+          "sobat"
+        ],
+        "responses": [
+          "Hai! Dinusbot hadir untukmu di sini. Informasi apa yang ingin kamu tau?",
+          "Halo! Aku Dinusbot yang akan menjawab pertanyaanmu seputar UDINUS, apa yang ingin kamu tanyakan?",
+          "Hei sobat! Ini Dinusbot. Lagi kepo apa nih?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Dah",
+          "Dadah",
+          "Bye",
+          "Byee",
+          "Good bye",
+          "Selamat tinggal",
+          "Sampai jumpa",
+          "Bai",
+          "See you"
+        ],
+        "responses": [
+          "Bye!",
+          "Dadahh!",
+          "Good bye!",
+          "Dahh, semoga harimu menyenangkan yaa!",
+          "Sampai jumpa lagi!",
+          "See ya! Senang bisa membantu"
+        ]
+      },
+      {
+        "tag": "terimakasih",
+        "patterns": [
+          "Thanks",
+          "Thank you",
+          "Terima kasih",
+          "Makasih",
+          "Terima kasih banyak"
+        ],
+        "responses": [
+          "Dengan senang hati:)"
+        ]
+      },
+      {
+        "tag": "daftar_nilai1",
+        "patterns": [
+          "Dimana Mahasiswa dapat melihat Daftar Nilai ?"
+        ],
+        "responses": [
+          "Di SiAdin Mahasiswa (menu akademik-Daftar Nilai)"
+        ]
+      },
+      {
+        "tag": "daftar_nilai2",
+        "patterns": [
+          "Bagaimana Cara mengambil Daftar Nilai ?"
+        ],
+        "responses": [
+          "ke TU Fakultas masing-masing dengan menunjukkan KTM/Kartu Alumni."
+        ]
+      },
+      {
+        "tag": "daftar_nilai3",
+        "patterns": [
+          "Dimana Saya dapat mengambil Daftar Nilai ?"
+        ],
+        "responses": [
+          "Di TU Fakultas masing-masing"
+        ]
+      },
+      {
+        "tag": "daftar_nilai4",
+        "patterns": [
+          "Apabila nilai mata kuliah Saya dari Dosen B akan tetapi di dalam Daftar Nilai tertulis C, mengapa bisa begitu ?"
+        ],
+        "responses": [
+          "Menghubungi Dosen yang bersangkutan"
+        ]
+      },
+      {
+        "tag": "daftar_nilai5",
+        "patterns": [
+          "Bagaimana mekanisme menghapus nilai / mata kuliah pada Daftar Nilai ?"
+        ],
+        "responses": [
+          "Hubungi kepala program studi untuk melakukan konsultasi terlebih dahulu."
+        ]
+      },
+      {
+        "tag": "heregristrasi1",
+        "patterns": [
+          "Apa yang dimaksud dengan Heregristrasi ?"
+        ],
+        "responses": [
+          "Pendaftaran ulang bagi mahasiswa yang akan kuliah kembali dengan mengupdate data mahasiswa"
+        ]
+      },
+      {
+        "tag": "heregristrasi2",
+        "patterns": [
+          "Apa beda dari Heregristrasi dengan Registrasi ?"
+        ],
+        "responses": [
+          "Heregistrasi merupakan pendaftaran ulang bagi mahasiswa Udinus yang ingin melanjutkan perkuliahan di semester baru dengan mengupdate data mahasiswa, Sedangkan registrasi adalah pendaftaran yang ditujukan untuk mahasiswa baru yang ingin mengikuti perkuliahan di Udinus sehingga datanya akan tersimpan oleh sistem."
+        ]
+      },
+      {
+        "tag": "heregristrasi3",
+        "patterns": [
+          "Kapan heregristrasi dilaksanakan ?"
+        ],
+        "responses": [
+          "Setiap awal semester sebelum perkuliahan dimulai"
+        ]
+      },
+      {
+        "tag": "heregristrasi4",
+        "patterns": [
+          "Kemana Saya harus mengurus heregristrasi ?"
+        ],
+        "responses": [
+          "Login ke SiAdin Mahasiswa dan mengisi form heregistrasi di menu Profil/Heregistrasi"
+        ]
+      },
+      {
+        "tag": "heregristrasi5",
+        "patterns": [
+          "Apa saja persyaratan heregristrasi ?"
+        ],
+        "responses": [
+          "Melakukan pendaftaran ulang dan menyelesaikan administrasi keuangan"
+        ]
+      },
+      {
+        "tag": "heregristrasi6",
+        "patterns": [
+          "Dimana pembayaran dapat dilakukan ?"
+        ],
+        "responses": [
+          "Bank Jateng, BRI dan Bank Mandiri."
+        ]
+      },
+      {
+        "tag": "heregristrasi7",
+        "patterns": [
+          "Bagaimana cara membayar dan apa saja yang harus Saya lakukan ?"
+        ],
+        "responses": [
+          "Setelah melakukan pembayaran pada Bank diatas, Anda akan menerima slip/resi. Fotocopy slip/resi tersebut kemudian tuliskan NIM dan Nama anda lalu serahkan ke BIKU."
+        ]
+      },
+      {
+        "tag": "heregristrasi8",
+        "patterns": [
+          "Apabila ada kendala saat mengupdate data mahasiswa bagaimana ?"
+        ],
+        "responses": [
+          "Coba di baca kembali ketentuannya seperti format file atau ukuran file tidak lebih dari 1 MB"
+        ]
+      },
+      {
+        "tag": "ijazah1",
+        "patterns": [
+          "Apa yang dimaksud dengan ijazah ?"
+        ],
+        "responses": [
+          "Surat tanda bukti sudah lulus"
+        ]
+      },
+      {
+        "tag": "ijazah2",
+        "patterns": [
+          "Kapan ijazah diberikan ?"
+        ],
+        "responses": [
+          "Saat pelaksanaan wisuda. dan disertai transkrip"
+        ]
+      },
+      {
+        "tag": "ijazah3",
+        "patterns": [
+          "Bagaimana bila Ijazah saya hilang ?"
+        ],
+        "responses": [
+          "Mengajukan surat keterangan kehilangan di kepolisian, Membawa surat keterangan dari kepolisian tersebut dan fotokopi ijazah ke BIAK. Ijazah akan diterbitkan kembali versi DUPLICATE. Bukan asli, karena yang asli hanya sekali di cetak / di keluarkan"
+        ]
+      },
+      {
+        "tag": "ijazah4",
+        "patterns": [
+          "Apa yang dimaksud dengan nomor ijazah ?"
+        ],
+        "responses": [
+          "Nomer seri uniq yang ada pada ijazah. sebagai pembeda dan penanda Ijazah"
+        ]
+      },
+      {
+        "tag": "ijazah5",
+        "patterns": [
+          "Bagaimana mekanisme legalisir ijazah ?"
+        ],
+        "responses": [
+          "Ke fakultas masing-masing, membawa ijazah asli dan fotocopy ijazah"
+        ]
+      },
+      {
+        "tag": "ijazah6",
+        "patterns": [
+          "Bagaimana apabila ijazah rusak karena Terbakar, Banjir, Kena Rayap ?"
+        ],
+        "responses": [
+          "Mengajukan surat keterangan kehilangan di kepolisian, Membawa surat keterangan dari kepolisian tersebut dan fotokopi ijazah (apabila masih ada) dan bukti ijazah yang rusak ke BIAK. Ijazah akan diterbitkan kembali versi DUPLICATE. Bukan asli, karena yang asli hanya sekali di cetak / dikeluarkan"
+        ]
+      },
+      {
+        "tag": "ijazah7",
+        "patterns": [
+          "Bagaimana jika belum mendapatkan Ijazah dan ingin mengambil Ijazah ?"
+        ],
+        "responses": [
+          "Silahkan hubungi Biro Akademik (BIAK), untuk pengambilan Ijazah langsung ke bagian BIAK di gedung A lantai 1"
+        ]
+      },
+      {
+        "tag": "ijazah8",
+        "patterns": [
+          "Bagaimana jika mau mengambil Ijazah tetapi diwakilkan ?"
+        ],
+        "responses": [
+          "Bisa diwakilkan tetapi harus membawa surat kuasa dan bertanda tangan bermaterai, membawa kartu alumni yang diwakilkan, membawa fotocopy KTP yang diambilkan dan yang mengambilkan ijazah tersebut di Biro Akademik (BIAK)"
+        ]
+      },
+      {
+        "tag": "informasi_kelas_kosong1",
+        "patterns": [
+          "Dimanakah saya bisa melihat informasi kelas yang kosong ?"
+        ],
+        "responses": [
+          "Di SiAdin Mahasiswa, papan pengumuman, Tata Usaha (TU), TV SignAge dan didepan pintu ruangan kelas yang semestinya berlangsung perkuliahan."
+        ]
+      },
+      {
+        "tag": "krs1",
+        "patterns": [
+          "Kapan input KRS di mulai ?"
+        ],
+        "responses": [
+          "Sebelum perkuliahan dimulai. Jadwal tepatnya akan diinformasikan sebelumnya melalui SiAdin dan di website dinus.ac.id atau dinus.org"
+        ]
+      },
+      {
+        "tag": "krs2",
+        "patterns": [
+          "Dimana mahasiswa bisa melihat jadwal input KRS ?"
+        ],
+        "responses": [
+          "Di website Dinus.ac.id atau di dinus.org"
+        ]
+      },
+      {
+        "tag": "krs3",
+        "patterns": [
+          "Pengambilan total SKS yang bisa diambil per semester berdasarkan apa?"
+        ],
+        "responses": [
+          "Indeks Prestasi Semester (IPS)"
+        ]
+      },
+      {
+        "tag": "krs4",
+        "patterns": [
+          "Penyebab kenapa tidak bisa input KRS ?"
+        ],
+        "responses": [
+          "Belum menyelesaikan administrasi keuangan, atau masalah teknis seperti koneksi yang kurang baik."
+        ]
+      },
+      {
+        "tag": "krs5",
+        "patterns": [
+          "Bagaimana jika kita kehabisan kelas pada waktu input KRS dan dimana kita harus bertanya ?"
+        ],
+        "responses": [
+          "Silahkan hubungi TU Fakultas masing - masing"
+        ]
+      },
+      {
+        "tag": "krs6",
+        "patterns": [
+          "Apa saja syarat untuk bisa melakukan input KRS ?"
+        ],
+        "responses": [
+          "Menyelesaikan administrasi keuangan dan melakukan heregistrasi"
+        ]
+      },
+      {
+        "tag": "krs7",
+        "patterns": [
+          "Dimana saya bisa melihat nama dosen wali saya ?"
+        ],
+        "responses": [
+          "Di siadin mahasiswa"
+        ]
+      },
+      {
+        "tag": "krs8",
+        "patterns": [
+          "Apa yang dimaksud KRS ?"
+        ],
+        "responses": [
+          "KRS adalah Kartu Rencana Studi yang berisi kewajiban kuliah yang harus diikuti mahasiswa. Didalam KRS ada banyak data dan informasi diantaranya data diri, matakuliah beserta jadwal perkuliahan selama 1 semester, SKS, Modul, Status, Ruang kuliah. Selain itu juga terdapat nama dosen wali."
+        ]
+      },
+      {
+        "tag": "krs9",
+        "patterns": [
+          "Bagaimana mendapatkan KRS ?"
+        ],
+        "responses": [
+          "Syaratnya adalah : tercatat menjadi mahasiswa, telah menyelesaikan administrasi keuangan, mengisi sendiri (memilih matakuliah dan jadwal yang telah ditawarkan) melalui KRS.dinus.ac.id Selanjutnya WAJIB diverifikasi melalui dosen wali. Apabila belum diverifikasi oleh dosen wali, KRS tidak sah (KRS tidak dapat digunakan untuk mengambil modul, absensi tidak dapat diinput oleh TU, nilai UTS dan UAS tidak dapat diinput oleh dosen pengampu)"
+        ]
+      },
+      {
+        "tag": "krs10",
+        "patterns": [
+          "Bagaimana proses input KRS ?"
+        ],
+        "responses": [
+          "Mahasiswa yang akan memilih dan mengambil matakuliah, WAJIB membaca pengumuman akademik, mengetahui jadwal inputnya, login ke krs.dinus.ac.id dengan username NIM dan password yang sama seperti password SiAdin. Mahasiswa wajib memilih status kuliah Pagi/Malam. Pilihan tersebut berdampak sajian matakuliah beserta jadwal sesuai dengan sesi pagi/malam. mahasiswa dapat memilih sesuai dengan selera dan aktifitas pribadi. hasil input anda akan otomatis update di data kesediaan kursi tiap kelompoknya. Silahkan klik \"Lihat dan Kirim KRS ke Email\" untuk mengirimkan KRS ke email mahasiswa dan tekan rombol validasi jika sudah tidak ada perubahan KRS (Jika sudah divalidasi KRS tidak dapat diubah). Selanjutnya verifikasi ke Dosen Wali."
+        ]
+      },
+      {
+        "tag": "krs11",
+        "patterns": [
+          "Ada penawaran krs bentuk pdf ?"
+        ],
+        "responses": [
+          "Ada, di account Siadin masing-masing"
+        ]
+      },
+      {
+        "tag": "krs12",
+        "patterns": [
+          "Jika mahasiswa remidi, apakah tetap bisa input sesuai jadwal per fakultas ?"
+        ],
+        "responses": [
+          "Bisa, tapi nilai yang tercantum di sistem adalah nilai yang kamu dapatkan sebelum remidi"
+        ]
+      },
+      {
+        "tag": "krs13",
+        "patterns": [
+          "Apa yang terjadi jika saya mengikuti simulasi KRS ?"
+        ],
+        "responses": [
+          "Simulasi KRS yang anda lakukan tidak berpengaruh apapun terhadap KRS anda secara riil namun jadwal yang ditawarkan sudah ditentukan tata usaha fakultas masing - masing."
+        ]
+      },
+      {
+        "tag": "krs14",
+        "patterns": [
+          "Jika saya tidak mengikuti kegiatan input KRS pada jadwal yang sudah ditentukan apa yang harus saya lakukan ?"
+        ],
+        "responses": [
+          "Anda dapat mengikuti kegiatan input krs di jadwal yang ditentukan untuk semua fakultas dan progdi.",
+          "Silahkan menghubungi bagian Biro Akademik (BIAK) di gedung A lantai 1"
+        ]
+      },
+      {
+        "tag": "krs15",
+        "patterns": [
+          "Bagaimana jika terdapat kendala saat input KRS (muncul \"Kelas Penuh\" dan tidak ada jadwal lain) ?"
+        ],
+        "responses": [
+          "Hubungi TU Fakultas masing - masing"
+        ]
+      },
+      {
+        "tag": "krs16",
+        "patterns": [
+          "Bagaimana apabila terjadi sistem eror saat input KRS ?"
+        ],
+        "responses": [
+          "Silakan hubungi ke email bantuan@psi.dinus.ac.id"
+        ]
+      },
+      {
+        "tag": "krs17",
+        "patterns": [
+          "Dimana melakukan input KRS ?"
+        ],
+        "responses": [
+          "Silahkan ke krs.dinus.ac.id"
+        ]
+      },
+      {
+        "tag": "krs18",
+        "patterns": [
+          "Apakah ada tutorial input KRS ?"
+        ],
+        "responses": [
+          "Ada, cek di dinus.org"
+        ]
+      },
+      {
+        "tag": "ktm1",
+        "patterns": [
+          "Syarat-syarat apa saja yang diperlukan untuk membuat Kartu Tanda Mahasiswa (KTM) Udinus ?"
+        ],
+        "responses": [
+          "Melengkapi data di SiAdin Mahasiswa di menu \"e-Ticket KTM/Heregistrasi\". Isi semua kelengkapan data seperti upload file Ijazah, KTP, KK (cek informasi syarat dan ketentuan upload file). Selanjutnya jika sudah berhasil upload semua file silahkan klik \"Download Tiket Pengambilan KTM ke BIAK\", cetak dan berikan ke BIAK di Gd. A lt. 1"
+        ]
+      },
+      {
+        "tag": "ktm2",
+        "patterns": [
+          "Jika saya kehilangan KTM, apa yang harus saya lakukan ?"
+        ],
+        "responses": [
+          "Silahkan Ke bagian Biro Akademik (BIAK) di gedung A lantai 1 dengan membawa surat kehilangan dari kepolisian dan membawa e-ticket dari siadin"
+        ]
+      },
+      {
+        "tag": "ktm3",
+        "patterns": [
+          "Apabila KTM sudah jadi, dimana saya harus mengambilnya ?"
+        ],
+        "responses": [
+          "Di BIAK gd.A lt.1"
+        ]
+      },
+      {
+        "tag": "ktm4",
+        "patterns": [
+          "Bagaimana jika mau mengambil KTM tetapi diwakilkan ?"
+        ],
+        "responses": [
+          "Bisa diwakilkan, silakan bawa cetakan E-ticket dari Siadin yang mau diambilkan KTM nya"
+        ]
+      },
+      {
+        "tag": "permohonan_aktif_mahasiswa1",
+        "patterns": [
+          "Bagaimana jika mau mengajukan Surat Keterangan Aktif Mahasiswa secara online ?"
+        ],
+        "responses": [
+          "Silahkan login siadin Mahasiswa, masuk ke menu Repository - Permohonan Surat, setelah itu pilih jenis surat yang bisa diajukan - Surat Keterangan Aktif Mahasiswa. Panduan dapat diakses di http://dinus.ac.id/files/permohonansurat.pdf"
+        ]
+      },
+      {
+        "tag": "permohonan_cuti1",
+        "patterns": [
+          "Kemana saya bisa mengajukan permohonan cuti akademik ?"
+        ],
+        "responses": [
+          "Ke Biro Akademik (BIAK) di gd.A lt.1"
+        ]
+      },
+      {
+        "tag": "permohonan_pengunduran_diri1",
+        "patterns": [
+          "Bagaimana jika mau mengajukan pengunduran diri sebagai Mahasiswa ?"
+        ],
+        "responses": [
+          "Silahkan login siadin Mahasiswa, masuk ke menu Repository - Permohonan Surat, setelah itu pilih jenis surat yang bisa diajukan - Undur Diri / Keluar. Panduan dapat diakses di http://dinus.ac.id/files/permohonansurat.pdf"
+        ]
+      },
+      {
+        "tag": "registrasi1",
+        "patterns": [
+          "Apa saja berkas Persyaratan Daftar Ulang (Registrasi) ?"
+        ],
+        "responses": [
+          "1. Bukti Pembayaran dari Bank 2. Surat Pengumuman 3. Fotocopy STTB/ijazah dilegalisir (dapat disusulkan) 4. Fotocopy Kartu Keluarga (KK) 5. Surat keterangan bebas Napza (Narkotika Psikotropika dan Zat Adiktif) dari rumah sakit terdekat atau poliklinik Udinus 6. Materai Rp 6000,- 2 lembar 7. Foto berwarna ukuran 3x4 cm dan 4x6 cm (masing-masing 2 lembar) 8. Surat keterangan bebas buta warna bagi calon mahasiswa di Fakultas Kesehatan, Program Studi Desain Komunikasi Visual dan Program Studi Teknik Biomedis (dapat diperiksa di Poliklinik Dian Nuswantoro Semarang, di depan Gedung C) 9. Semua berkas dimasukkan pada map sesuai fakultas (FIK-biru, FEB-kuning, FIB-merah, FKes-hijau, FT-merah)"
+        ]
+      },
+      {
+        "tag": "registrasi2",
+        "patterns": [
+          "Apa langkah awal untuk melakukan registrasi ?"
+        ],
+        "responses": [
+          "Melakukan pendaftaran dan menyelesaikan administrasi keuangan"
+        ]
+      },
+      {
+        "tag": "registrasi3",
+        "patterns": [
+          "Kapan registrasi dilakukan ?"
+        ],
+        "responses": [
+          "Sesuai dengan jadwal gelombang pendaftaran yang sedang berlaku"
+        ]
+      },
+      {
+        "tag": "registrasi4",
+        "patterns": [
+          "Di Bank mana saya dapat membayar ?"
+        ],
+        "responses": [
+          "Bank JATENG Cabang pembantu UDINUS Gedung G lantai 1"
+        ]
+      },
+      {
+        "tag": "registrasi5",
+        "patterns": [
+          "Apa yang harus saya cantumkan saat melakukan pembayaran pendaftaran mahasiswa baru ?"
+        ],
+        "responses": [
+          "Anda tidak perlu mencantumkan apapun, hanya perlu melakukan pendaftaran melalui sistem kami yang akan di pandu oleh petugas pendaftaran mahasiswa baru"
+        ]
+      },
+      {
+        "tag": "registrasi6",
+        "patterns": [
+          "Setelah membayar di Bank apa yang harus saya lakukan ?"
+        ],
+        "responses": [
+          "Registrasi"
+        ]
+      },
+      {
+        "tag": "registrasi7",
+        "patterns": [
+          "Jika saya masih kesulitan dengan registrasi, apa yang harus saya lakukan ?"
+        ],
+        "responses": [
+          "Hubungi petugas registrasi"
+        ]
+      },
+      {
+        "tag": "siadin1",
+        "patterns": [
+          "Kemana saya harus mengurus masalah aktivasi siadin mahasiswa, jika seandainya terjadi masalah dengan siadin saya ?"
+        ],
+        "responses": [
+          "Ke bagian Tata Usaha (TU) Fakultas masing-masing."
+        ]
+      },
+      {
+        "tag": "siadin2",
+        "patterns": [
+          "Bagaimana mekanisme Aktivasi Siadin dan atau Reset Password Siadin Mahasiswa ?"
+        ],
+        "responses": [
+          "Aktivasi Siadin dan atau Reset Password Siadin Mahasiswa dapat dilakukan secara mandiri oleh mahasiswa dengan mengklik link \"Siadin Activation/Reset Link\" di bawah form login Siadin Mahasiswa."
+        ]
+      },
+      {
+        "tag": "siadin3",
+        "patterns": [
+          "Bagaimana caranya untuk melakukan aktivasi Siadin ?"
+        ],
+        "responses": [
+          "Cara aktivasi Siadin cek di dinus.org/tutorial"
+        ]
+      },
+      {
+        "tag": "siadin4",
+        "patterns": [
+          "Bagaimana merubah status akademik dari Mangkir berganti menjadi Aktif ?"
+        ],
+        "responses": [
+          "Pastikan anda sudah menyelesaikan administratif keuangan terlebih dahulu, pastikan kembali KRS anda sudah di verifikasi oleh Dosen Wali. Jika KRS sudah diverifikasi oleh Dosen Wali, status akademik anda akan otomatis berubah menjadi aktif. Jika status akademik sebelumnya adalah Cuti lalu kemudian berubah menjadi Mangkir/Non Aktif, silahkan ke BIAK di gedung A lantai 1."
+        ]
+      },
+      {
+        "tag": "siadin5",
+        "patterns": [
+          "Bagaimana cara mahasiswa login ke siAdin ?"
+        ],
+        "responses": [
+          "Lakukan aktivasi siadin terlebih dahulu kemudian mahasiswa dapat login SiAdin dengan username NIM dan password yang sudah mahasiswa buat (jika sudah aktivasi siadin)."
+        ]
+      },
+      {
+        "tag": "siadin6",
+        "patterns": [
+          "Kenapa Saya tidak berhasil login SiAdin, akan tetapi Saya sudah memasukkan password dengan benar ?"
+        ],
+        "responses": [
+          "Beberapa kemungkinan : format NIM salah, atau NIM tidak ditemukan, atau salah password, atau Status akademik sudah berubah ke status Lulus, atau anda salah memasukkan password anda, bila lupa password sebaiknya reset password siadin anda secara mandiri dengan mengklik link \"Siadin Activation/Reset Link\" di bawah form login Siadin Mahasiswa. Jika pada saat login SiAdin muncul pesan error \"Kombinasi Username dan Password Tidak Valid\" dengan blank warna putih. Kemungkinan ada gangguan pada operator anda (Telkomsel/Indosat) memang terkadang berhasil login dan juga tidak. Itu murni gangguan dari operator anda, bukan pada sistem. Silahkan gunakan wifi udinus atau operator lainnya."
+        ]
+      },
+      {
+        "tag": "siadin7",
+        "patterns": [
+          "Jika IPK saya di Siadin tidak sesuai, apa yang harus saya lakukan ?"
+        ],
+        "responses": [
+          "Jika IPK dan IPS tidak sesuai dengan hitungan, kemungkinan sedang dalam perbaikan sampai masa KRS berlangsung. Silahkan ditunggu terlebih dahulu"
+        ]
+      },
+      {
+        "tag": "siadin8",
+        "patterns": [
+          "Apakah KHS itu adalah keharusan ?"
+        ],
+        "responses": [
+          "KHS adalah sebuah bukti cetak nilai hasil ujian nyang anda dapatkan"
+        ]
+      },
+      {
+        "tag": "siadin9",
+        "patterns": [
+          "Sudah melakukan reset password tetapi belum berhasil, caranya bagaimana ?"
+        ],
+        "responses": [
+          "Coba melakukan reset password ulang dengan menggunakan jaringan yang berbeda atau gunakan selain jaringan Telkomsel, Indosat atau XL."
+        ]
+      },
+      {
+        "tag": "siadin10",
+        "patterns": [
+          "Bagaimana kalau tidak mendapatkan email balasan setelah melakukan aktivasi siadin ?"
+        ],
+        "responses": [
+          "Coba cek pada spam email, apabila belum ada bisa diulangi kembali untuk melakukan reset password dan jika masih belum bisa, silahkan hubungi ke bantuan@psi.dinus.ac.id ( cantumkan nama serta nim kamu )"
+        ]
+      },
+      {
+        "tag": "siadin11",
+        "patterns": [
+          "Bagaimana jika tidak bisa login Siadin mahasiswa ?"
+        ],
+        "responses": [
+          "Silahkan cek terlebih dahulu penulisan NIM dan passwordnya sudah benar. Apabila masih belum bisa, silahkan hubungi kontak UPT Data & Informasi."
+        ]
+      },
+      {
+        "tag": "siadin12",
+        "patterns": [
+          "Apabila penulisan nama di siadin tidak sesuai, bagaimana cara mengganti ?"
+        ],
+        "responses": [
+          "Silahkan ke bagian Biro Akademik ( BIAK ) atau ke bagian TU Fakultas masing - masing"
+        ]
+      },
+      {
+        "tag": "siadin13",
+        "patterns": [
+          "Bagaimana cara mahasiswa melakukan voting pemira di SiAdin ?"
+        ],
+        "responses": [
+          "Mahasiswa dapat menuju menu Pemira (Pemilihan Raya) lalu SiAdin akan menampilkan Pasangan Calon dari organisasi mahasiswa terkait yang akan divoting"
+        ]
+      },
+      {
+        "tag": "siadin14",
+        "patterns": [
+          "Bagaimana cara mahasiswa melihat pengumuman dari dosen kelas di SiAdin ?"
+        ],
+        "responses": [
+          "Mahasiswa dapat menuju menu Pengumuman lalu SiAdin akan menampilkan 4 menu pengumuman melingkupi : 1. Pengumuman Kelas dari Dosen 2. Pengumuman Akademik 3. Berita Dikti 4. Berita Kopertis"
+        ]
+      },
+      {
+        "tag": "siadin15",
+        "patterns": [
+          "Apakah kuisioner penilaian dosen pengampu wajib diisi ?"
+        ],
+        "responses": [
+          "Wajib"
+        ]
+      },
+      {
+        "tag": "siadin16",
+        "patterns": [
+          "Bagaimana cara melaksanakan ujian online melalui SiAdin ?"
+        ],
+        "responses": [
+          "Mahasiswa dapat menuju menu Ujian Online lalu akan ditampilkan 1. Panduan ujian online 2. List mata kuliah yang mengadakan ujian online beserta link ujiannya 3. Jika masih belum menyelesaikan administratif maka yang muncul adalah icon * (bintang) yang berarti presensi kurang dan atau $ (dolar) yang berarti ada tagihan yang belum terbayar."
+        ]
+      },
+      {
+        "tag": "siadin_parents1",
+        "patterns": [
+          "Apa itu SiAdin Parents ?"
+        ],
+        "responses": [
+          "SiAdin Parents merupakan aplikasi web SiAdin yang ditujukan untuk orang tua mahasiswa."
+        ]
+      },
+      {
+        "tag": "siadin_parents2",
+        "patterns": [
+          "Bagaimana cara orang tua mengakses SiAdin Parents ?"
+        ],
+        "responses": [
+          "Orang tua mahasiswa dapat mengakses melalui laman https://dinus.ac.id/parents lalu mengisi forms login dengan data [NIM Mahasiswa] dan [Tanggal Lahir Orang Tua]"
+        ]
+      },
+      {
+        "tag": "siadin_parents3",
+        "patterns": [
+          "Apa saja isi dari SiAdin Parents ?"
+        ],
+        "responses": [
+          " Isi dari SiAdin Parents antara lain : 1. Dokumen Mahasiswa 2. Kartu Rencana Studi 3. Presensi Semester 4. Hasil Studi Semester 5. Transkip Nilai 6. Jadwal Dosen Pengampu 7. Status Pembayaran 8. Jadwal Ujian"
+        ]
+      },
+      {
+        "tag": "data_alumni1",
+        "patterns": [
+          "Dimana alumni bisa mendapatkan foto Wisuda ( pas foto ) ?"
+        ],
+        "responses": [
+          "Di website http://alumni.dinus.ac.id/page/alumni"
+        ]
+      },
+      {
+        "tag": "data_alumni2",
+        "patterns": [
+          "Dimana alumni bisa memberikan cerita kesan pesan selama di Udinus ?"
+        ],
+        "responses": [
+          "Di website http://alumni.dinus.ac.id"
+        ]
+      },
+      {
+        "tag": "permohonan_surat_keterangan_lulus1",
+        "patterns": [
+          "Apakah alumni bisa mendapatkan Surat Keterangan Lulus ?"
+        ],
+        "responses": [
+          "Bisa secara online, melalui website berikut alumni.dinus.ac.id"
+        ]
+      },
+      {
+        "tag": "permohonan_surat_keterangan_lulus2",
+        "patterns": [
+          "Bagaimana caranya untuk mendapatkan Surat Keterangan Lulus ?"
+        ],
+        "responses": [
+          "Silakan login ke website Alumni.dinus.ac.id kemudian pilih menu Layanan - pilih surat Keterangan Lulus - klik Ajukan - tunggu hingga permohonan di setujui oleh BIAK, apabila sudah disetujui maka bisa di undur secara mandiri"
+        ]
+      },
+      {
+        "tag": "tracing_alumni1",
+        "patterns": [
+          "Kapan diadakan Tracer Study Udinus ?"
+        ],
+        "responses": [
+          "Silahkan cek di website https://cc.dinus.ac.id"
+        ]
+      },
+      {
+        "tag": "tracing_alumni2",
+        "patterns": [
+          "Apa itu tracer study ?"
+        ],
+        "responses": [
+          "Tracer Study adalah penelusuran alumni untuk mengetahui kegiatan alumni setelah lulus dari Perguruan Tinggi, transisi dari dunia pendidikan tinggi ke dunia kerja, situasi kerja, pemerolehan kompetensi, penggunaan kompetensi dalam pekerjaan dan perjalanan karirnya."
+        ]
+      },
+      {
+        "tag": "tracing_alumni3",
+        "patterns": [
+          "Apakah ada jobfair yang diadakan oleh Udinus ?"
+        ],
+        "responses": [
+          "Ada"
+        ]
+      },
+      {
+        "tag": "tracing_alumni4",
+        "patterns": [
+          "Dimana bisa mendapatkan informasi Jobfair Udinus ?"
+        ],
+        "responses": [
+          "Silahkan cek di website https://cc.dinus.ac.id"
+        ]
+      },
+      {
+        "tag": "career_center_udinus1",
+        "patterns": [
+          "Apa sih Career Center UDINUS itu ?"
+        ],
+        "responses": [
+          "Career Center UDINUS merupakan pusat layanan dan karir bagi alumni Universitas Dian Nuswantoro Semarang. Career Center UDINUS menyediakan berbagai informasi karir, pemagangan(internship) dan lowongan kerja diberbagai bidang dan lintas perusahaan industri."
+        ]
+      },
+      {
+        "tag": "career_center_udinus2",
+        "patterns": [
+          "Apakah bisa menjadi member Career Center UDINUS, tetapi bukan alumni Udinus ?"
+        ],
+        "responses": [
+          "Tentu bisa, apabila ingin menjadi member di UDINUS Career Center."
+        ]
+      },
+      {
+        "tag": "career_center_udinus3",
+        "patterns": [
+          "Bagaimana menjadi member Career Center UDINUS ?"
+        ],
+        "responses": [
+          "Untuk menjadi member di Career Center UDINUS sangatlah mudah. Silahkan registrasi melalui website https://cc.dinus.ac.id - pilih menu Jobfair - Registrasi - Pencari Kerja"
+        ]
+      },
+      {
+        "tag": "career_center_udinus4",
+        "patterns": [
+          "Bagaiamana cara melamar kerja di website Career Center UDINUS ?"
+        ],
+        "responses": [
+          "Silahkan Anda login menggunakan akun Anda, kemudian klik Lowongan kemudian cari lowongan pekerjaan sesuai minat Anda. kemudian klik lowongan tersebut, dan klik Kirim Lamaran pada tombol pojok kanan bawah. Dan tunggu, maka perusahaan Akan menghubungi Anda."
+        ]
+      },
+      {
+        "tag": "career_center_udinus5",
+        "patterns": [
+          "Dimana alamat Career Center UDINUS ?"
+        ],
+        "responses": [
+          "Jl. Nakula I No. 5-11, Pendrikan Kidul, Kec. Semarang Tengah, Kota Semarang, Jawa Tengah 50131"
+        ]
+      },
+      {
+        "tag": "career_center_udinus6",
+        "patterns": [
+          "Adakah kontak person Career Center UDINUS ?"
+        ],
+        "responses": [
+          "Ada, Silakan hubungi kontak person berikut : (024) 352-0165 (024) 356-9684 082244158793 atau bisa melalui email career@cc.dinus.ac.id"
+        ]
+      },
+      {
+        "tag": "career_center_udinus7",
+        "patterns": [
+          "Pelayanan Career Center UDINUS ?"
+        ],
+        "responses": [
+          "Pelayanan setiap Senin-Jum'at : 09.00 - 15.00 WIB Sabtu-Minggu : Libur"
+        ]
+      },
+      {
+        "tag": "career_center_udinus8",
+        "patterns": [
+          "Apakah ada layanan konseling untuk Alumni Udinus ?"
+        ],
+        "responses": [
+          "Ada"
+        ]
+      },
+      {
+        "tag": "career_center_udinus9",
+        "patterns": [
+          "Bagaimana alumni mendapatkan informasi mengenai konseling di career center ?"
+        ],
+        "responses": [
+          "Silahkan cek di https://cc.dinus.ac.id/konseling/"
+        ]
+      },
+      {
+        "tag": "career_center_udinus10",
+        "patterns": [
+          "Adakah kontak yang bisa dihubungi untuk konseling ?"
+        ],
+        "responses": [
+          "Ada, silahkan hubungi 0821-3770-6292 (Whatsapp)"
+        ]
+      },
+      {
+        "tag": "info_lowongan1",
+        "patterns": [
+          "Dimana saya bisa mendapatkan informasi lowongan pekerjaan ?"
+        ],
+        "responses": [
+          "Dapat membuka di website cc.dinus.ac.id"
+        ]
+      },
+      {
+        "tag": "email1",
+        "patterns": [
+          "Bagaimana mekanisme Reset Password Email Mahasiswa ?"
+        ],
+        "responses": [
+          "Silahkan Ke TU Fakultas masing - masing dengan menunjukkan KTM/KTM Sementara. Apabila tidak bisa datang langsung, coba hubungi melalui kontak TU Fakultas masing - masing"
+        ]
+      },
+      {
+        "tag": "email2",
+        "patterns": [
+          "Bagaimana jika nomor telepon pada Email Mahasiswa sudah tidak dapat diakses? Sedangkan kode verifikasi email masuk ke nomor telepon tersebut."
+        ],
+        "responses": [
+          "Silahkan ke UPT Data & Informasi di gedung Udinus Yudistira lantai 2 dengan menunjukkan KTM/KTM Sementara."
+        ]
+      },
+      {
+        "tag": "email3",
+        "patterns": [
+          "Bagaimana penulisan format email mahasiswa ?"
+        ],
+        "responses": [
+          "Format email mahasiswa adalah nim@mhs.dinus.ac.id , tanpa titik dan huruf depan diganti dengan angka (A=1, B=2, C=3, D=4, E=5). Contohnya adalah : A11.2012.04012 --> 111201204012@mhs.dinus.ac.id"
+        ]
+      },
+      {
+        "tag": "email4",
+        "patterns": [
+          "Apakah ada petunjuk untuk melakukan aktivasi email ?"
+        ],
+        "responses": [
+          "Silakan cek di dinus.org/tutorial"
+        ]
+      },
+      {
+        "tag": "email5",
+        "patterns": [
+          "Apa saja benefit yang didapat ketika memiliki akun email mahasiswa ?"
+        ],
+        "responses": [
+          "Penyimpanan ekstra 5GB pada google drive, dapat masuk link google meet secara otomatis jika penyelenggara rapat menggunakan akun mahasiswa juga"
+        ]
+      },
+      {
+        "tag": "email6",
+        "patterns": [
+          "Pesan apa saja yang biasa dikirim melalui email mahasiswa ?"
+        ],
+        "responses": [
+          "Pemberitahuan transaksi akademik, Pemberitahuan heregristrasi pada Siadin, Informasi mata kuliah yang telah terverifikasi dosen wali, Pemberitahuan submission assignment dari kulino"
+        ]
+      },
+      {
+        "tag": "email7",
+        "patterns": [
+          "Berapa lama mahasiswa dapat menggunakan akun email mahasiswa ?"
+        ],
+        "responses": [
+          "Mahasiswa yang sudah lulus tetap dapat mendapatkan akses akun email mahasiswa"
+        ]
+      },
+      {
+        "tag": "olahraga1",
+        "patterns": [
+          "Adakah tempat olahraga di udinus ?"
+        ],
+        "responses": [
+          "Ada, tempat tersebut bernama Udinus Sport Center (USC)"
+        ]
+      },
+      {
+        "tag": "olahraga2",
+        "patterns": [
+          "Dimana tempat USC ?"
+        ],
+        "responses": [
+          "Jl. Pamularsih Raya No.42, Salamanmloyo, Kec. Semarang Barat, Kota Semarang, Jawa Tengah 50143"
+        ]
+      },
+      {
+        "tag": "olahraga3",
+        "patterns": [
+          "Terdapat lapangan apa saja di dalam USC ?"
+        ],
+        "responses": [
+          "USC memiliki 4 lapangan yang terdiri dari : a. 3 Lapangan Badminton (Dapat digunakan untuk permainan badminton ataupun taekwondo) b. 1 Lapangan Futsal/Basket (Dapat digunakan untuk permainan futsal ataupun basket)"
+        ]
+      },
+      {
+        "tag": "olahraga4",
+        "patterns": [
+          "Siapa saja yang dapat menggunakan lapangan USC ?"
+        ],
+        "responses": [
+          "Hanya civitas akademika UDINUS yang dapat menggunakan fasilitas di USC"
+        ]
+      },
+      {
+        "tag": "olahraga5",
+        "patterns": [
+          "Bagaimana cara menggunakan fasilitas lapangan USC ?"
+        ],
+        "responses": [
+          "Mahasiswa dapat menghubungi BIMA UDINUS yang tertera di dalam Gedung Olahraga USC untuk narahubung penggunaan fasilitas USC."
+        ]
+      },
+      {
+        "tag": "call_center1",
+        "patterns": [
+          "Call Center Udinus"
+        ],
+        "responses": [
+          "0243517261"
+        ]
+      },
+      {
+        "tag": "call_center2",
+        "patterns": [
+          "Bagaimana jika ingin menghubungi Biro Umum ?"
+        ],
+        "responses": [
+          "Silahkan menghubungi nomer berikut ini (024)3569684"
+        ]
+      },
+      {
+        "tag": "call_center3",
+        "patterns": [
+          "Apakah orangtua mahasiswa bisa menghubungi call senter ?"
+        ],
+        "responses": [
+          "Bisa"
+        ]
+      },
+      {
+        "tag": "call_center4",
+        "patterns": [
+          "Bagaimana jika ingin menghubungi Biro Akademik ?"
+        ],
+        "responses": [
+          "Silahkan menghubungi kontak berikut 082111794900"
+        ]
+      },
+      {
+        "tag": "call_center5",
+        "patterns": [
+          "Bagaimana jika ingin menghubungi Biro Keuangan ?"
+        ],
+        "responses": [
+          "Silahkan menghubungi kontak berikut 081226087007"
+        ]
+      },
+      {
+        "tag": "call_center6",
+        "patterns": [
+          "Bagaimana jika ingin menghubungi Biro Kemahasiswaan ?"
+        ],
+        "responses": [
+          "Silahkan menghubungi kontak berikut 085740650190"
+        ]
+      },
+      {
+        "tag": "call_center7",
+        "patterns": [
+          "Bagaimana jika ingin menghubungi UPT Data & Informasi ?"
+        ],
+        "responses": [
+          "Silahkan menghubungi kontak berikut 081315488440"
+        ]
+      },
+      {
+        "tag": "call_center8",
+        "patterns": [
+          "Bagaimana jika ingin menghubungi TU Fakultas di Udinus ?"
+        ],
+        "responses": [
+          "Silahkan hubungi kontak berikut FAKULTAS ILMU KOMPUTER: 087832173049 FAKULTAS EKONOMI DAN BISNIS: 088224129940 FAKULTAS ILMU BUDAYA: 085640070034 FAKULTAS KESEHATAN: 08883923123 FAKULTAS TEKNIK: 087733611119"
+        ]
+      },
+      {
+        "tag": "call_center9",
+        "patterns": [
+          "Bagaimana jika ingin menanyakan perihal S2/S3 ILMU KOMPUTER di Udinus ?"
+        ],
+        "responses": [
+          "Silahkan hubungi kontak berikut 081225200216"
+        ]
+      },
+      {
+        "tag": "call_center10",
+        "patterns": [
+          "Bagaimana jika ingin menanyakan perihal S2 ILMU MANAJEMEN ?"
+        ],
+        "responses": [
+          "Silahkan menghubungi kontak berikut 089637496984"
+        ]
+      },
+      {
+        "tag": "call_center11",
+        "patterns": [
+          "Bagaimana jika ingin menanyakan perihal S3 ILMU MANAJEMEN ?"
+        ],
+        "responses": [
+          "Silahkan hubungi kontak berikut 081284509703"
+        ]
+      },
+      {
+        "tag": "call_center12",
+        "patterns": [
+          "Bagaimana jika ingin menanyakan perihal PENDIDIKAN JARAK JAUH di Udinus ?"
+        ],
+        "responses": [
+          "Silahkan menghubungi kontak berikut 0811293758"
+        ]
+      },
+      {
+        "tag": "call_center13",
+        "patterns": [
+          "Bagaimana jika ingin menghubungi CFLT Udinus ?"
+        ],
+        "responses": [
+          "Silahkan menghubungi kontak berikut 081215000472"
+        ]
+      },
+      {
+        "tag": "call_center14",
+        "patterns": [
+          "Bagaimana jika ingin menghubungi HUMAS UDINUS ?"
+        ],
+        "responses": [
+          "Silahkan menghubungi kontak berikut 088233616670"
+        ]
+      },
+      {
+        "tag": "call_center15",
+        "patterns": [
+          "Bagaimana jika ingin menghubungi PERPUSTAKAAN Udinus ?"
+        ],
+        "responses": [
+          "Silahkan menghubungi nomer berikut 08112888612"
+        ]
+      },
+      {
+        "tag": "call_center16",
+        "patterns": [
+          "Bagaimana jika ingin menghubungi CAREER CENTER Udinus ?"
+        ],
+        "responses": [
+          "Silahkan menghubungi kontak berikut 082244158793"
+        ]
+      },
+      {
+        "tag": "call_center17",
+        "patterns": [
+          "Bagaimana jika ingin menghubungi INTERNASIONAL CLASS Udinus ?"
+        ],
+        "responses": [
+          "Silahkan menghubungi kontak berikut 082310498985"
+        ]
+      },
+      {
+        "tag": "call_center18",
+        "patterns": [
+          "Bagaimana jika ingin menanyakan perihal DAFTAR UDINUS ?"
+        ],
+        "responses": [
+          "Silahkan menghubungi kontak berikut 081225296005"
+        ]
+      },
+      {
+        "tag": "sms_center1",
+        "patterns": [
+          "Apakah orangtua mahasiswa juga bisa mengakses SMS Senter ?"
+        ],
+        "responses": [
+          "Bisa, di nomor 081325634567"
+        ]
+      },
+      {
+        "tag": "sms_center2",
+        "patterns": [
+          "Jika nomor yang digunakan mahasiswa untuk sms itu baru , apakah harus mendaftarkan kembali ?"
+        ],
+        "responses": [
+          "Tidak"
+        ]
+      },
+      {
+        "tag": "sms_center3",
+        "patterns": [
+          "Apa manfaat SMS Senter untuk mahasiswa ?"
+        ],
+        "responses": [
+          "Bisa menyampaikan keluhan, syarat dan kritik"
+        ]
+      },
+      {
+        "tag": "beasiswa1",
+        "patterns": [
+          "Dimana kita bisa mendapatkan informasi tentang beasiswa ?"
+        ],
+        "responses": [
+          "1. Informasi mengenai beasiswa bisa dilihat di http://bima.dinus.ac.id 2. di papan pengumuman 3. di Siadin Mahasiswa"
+        ]
+      },
+      {
+        "tag": "beasiswa2",
+        "patterns": [
+          "Apa saja persyaratan untuk mendapatkan beasiswa prestasi ?"
+        ],
+        "responses": [
+          "Persyaratan : - Sertifikat kejuaraan (tingkat lokal,nasional,internasional) - Surat rekomendasi dari fakultas"
+        ]
+      },
+      {
+        "tag": "beasiswa3",
+        "patterns": [
+          "Jenis-jenis beasiswa yang dikelola Udinus ?"
+        ],
+        "responses": [
+          "-Beasiswa PPA -beasiswa AKTIVIS -Beasiswa BBM -Beasiswa Aktivis -Beasiswa BKM -Beasiswa PemproP -Beasiswa Djarum -Beasiswa TPSDP -Beasiswa Supersemar -Beasiswa Dinar -Beasiswa Instusi Per Program Studi -Beasiswa Ungulan -Beasiswa Khusus -Beasiswa Prestasi -Beasiswa BRI"
+        ]
+      },
+      {
+        "tag": "beasiswa4",
+        "patterns": [
+          "Apa saja Persyaratan Beasiswa Peningkatan Prestasi Akademik (PPA) ?"
+        ],
+        "responses": [
+          "- FC.Kartu Mahasiswa (KTM)Yang Masih Berlaku - FC.KTP (umur maksimal 23 tahun) - Photo ukuran 3x4 (dua lembar, pakai jas almamater) - Materai 6000 sebanyak (3 lembar), meterai tidak usah ditempel - Nilai IPK minimal 3.00 dibuktikan dengan Transkip nilai yang dikeluarkan oleh Tata Usaha dari fakultas dan distempel fakultas. - Minimal semester I, maksimal semester VI untuk S1 - minimal semester 1, maksimal semester V untuk D3 - FC. Rekening buku tabungan BANK BNI atas nama sendiri yang dilegalisir oleh bank setempat - FC. Kartu Keluarga - Tidak sedang menerima beasiswa pada saat pengajuan beasiswa dan tidak sedang cuti kuliah- Tidak sedang menjadi PNS/pegawai - FC.Kartu Rencana Studi (KRS) terbaru dan dilegalisir fakultas. NB:pendaftaran dibuka setiap bulan januari-februari photo serta meterai tidak usah ditempel, dimasukkan dalam amplop/plastik"
+        ]
+      },
+      {
+        "tag": "beasiswa5",
+        "patterns": [
+          "Apa saja persyaratan beasiswa Bantuan Biaya Pendidikan Peningkatan Prestasi Akademik (BBP-PPA) ?"
+        ],
+        "responses": [
+          "- FC.Kartu Mahasiswa (KTM) Yang Masih Berlaku - Nilai IPK minimal 2.50 dibuktikan dengan Transkip nilai yang dikeluarkan oleh Tata Usaha dari fakultas. - Minimal semester I maksimal semester VI. - FC.Rekening buku tabungan bank Jateng yang telah dilegalisir oleh bank setempat - FC. Kartu Keluarga - Surat Keterangan Tidak Mampu yang disyahkan Pihak Kelurahan - Tidak sedang menerima beasiswa pada saat pengajuan beasiswa dan tidak sedang cuti kuliah- Tidak sedang menjadi PNS atau pegawai -FC.Kartu Rencana Studi (KRS) terbaru dan dilegalisir oleh Fakultas. - Mengisi Formulir pendaftaran NB: pendaftaran dibuka setiap bulan januari- februari"
+        ]
+      },
+      {
+        "tag": "beasiswa6",
+        "patterns": [
+          "Apa saja persyaratan beasiswa AKTIVIS ?"
+        ],
+        "responses": [
+          "- FC.Kartu Mahasiswa (KTM)Yang Masih Berlaku - Nilai IPK minimal 2,75 dibuktikan dengan Transkip nilai yang dikeluarkan oleh Tata Usaha dari fakultas. - FC.Surat keanggotaan organisasi kemahasiswaan - Tidak sedang menerima beasiswa pada saat pengajuan beasiswaan - Tidak sedang menjadi PNS atau pegawai - Mengisi Formulir pendaftaran"
+        ]
+      },
+      {
+        "tag": "beasiswa7",
+        "patterns": [
+          "Apa saja persyaratan beasiswa BKM ?"
+        ],
+        "responses": [
+          "- FC.Kartu Mahasiswa (KTM)Yang Masih Berlaku - Nilai IPK minimal 2,75 dibuktikan dengan Transkip nilai yang dikeluarkan oleh Tata Usaha dari fakultas. - Minimal semester II - FC. Kartu Keluarga - Surat Keterangan tidak mampu yang disyahkan Pihak kelurahan - Tidak sedang menerima beasiswa pada saat pengajuan beasiswaan - Tidak sedang menjadi PNS atau pegawai - Mengisi Formulir pendaftaran"
+        ]
+      },
+      {
+        "tag": "beasiswa8",
+        "patterns": [
+          "Apa saja persyaratan beasiswa PEMPROP ?"
+        ],
+        "responses": [
+          "- FC.Kartu Mahasiswa (KTM)Yang Masih Berlaku - Nilai IPK minimal 2,75 dibuktikan dengan Transkip nilai yang dikeluarkan oleh Tata Usaha dari fakultas. - FC KHS - Surat Ket.sebagai mahasiswa aktif (minta di BIAK) - Surat Keterangan tidak mampu yang disyahkan Pihak kelurahan - Tidak sedang menerima beasiswa pada saat pengajuan beasiswaan - Tidak sedang menjadi PNS atau pegawai - Mengisi Formulir pendaftaran NB: pendaftaran dibuka bulan juli-agustus"
+        ]
+      },
+      {
+        "tag": "beasiswa9",
+        "patterns": [
+          "Apa saja persyaratan beasiswa Djarum ?"
+        ],
+        "responses": [
+          "- FC.Kartu Mahasiswa (KTM)Yang Masih Berlaku - Pas photo ukuran 4x6 sebanyak 2 (dua)lembar) - Nilai IPK minimal 3.00 pada Semester III dibuktikan dengan Kartu Hasil Studi (KHS) yang dikeluarkan oleh Tata Usaha dari fakultas. - Sedang menempuh Tingkat Pendidikan Strata 1 (S1) pada semester IV dari semua disiplin ilmu . - Dapat mempertahankan IPK minimum 3.00 hingga akhir semester IV. - Tidak sedang menerima beasiswa pada saat pengajuan dari pihak lain. - Tidak sedang menjadi PNS atau pegawai - Membuat karya tulis dengan tulisan tangan sebanyak 2 lembar folio - Mengisi Formulir pendaftaran( secara online) di www.djarumbeasiswaplus.org NB: pendaftaran dibuka bulan April"
+        ]
+      },
+      {
+        "tag": "beasiswa10",
+        "patterns": [
+          "Persyaratan beasiswa TPSDP ?"
+        ],
+        "responses": [
+          "- FC.Kartu Mahasiswa (KTM)Yang Masih Berlaku - Nilai IPK minimal 2,75 dibuktikan dengan Transkip nilai yang dikeluarkan oleh Tata Usaha dari fakultas. - Minimal semester III - FC. Kartu Keluarga - Surat tidak mampu yang disyahkan pihak kelurahan - Tidak sedang menerima beasiswa pada saat pengajuan beasiswaan - Tidak sedang menjadi PNS atau pegawai - Mengisi Formulir pendaftaran"
+        ]
+      },
+      {
+        "tag": "beasiswa11",
+        "patterns": [
+          "Apa saja persyaratan beasiswa SUPERSEMAR ?"
+        ],
+        "responses": [
+          "- FC.Kartu Mahasiswa (KTM)Yang Masih Berlaku - Nilai IPK minimal 2,75 dibuktikan dengan Transkip nilai yang dikeluarkan oleh Tata Usaha dari fakultas. - Minimal semester III - FC. Kartu Keluarga - FC.Rekenening buku tabungan bank jateng yang sudah dilegalisir bank setempat - Surat Keterangan tidak mampu yang disyahkan Pihak kelurahan - Tidak sedang menerima beasiswa pada saat pengajuan beasiswaan - Tidak sedang menjadi PNS atau pegawai - Mengisi Formulir pendaftaran NB: pendaftaran dibuka bulan maret-april"
+        ]
+      },
+      {
+        "tag": "beasiswa12",
+        "patterns": [
+          "Beasiswa Unggulan, apa persyaratanya ?"
+        ],
+        "responses": [
+          "Syarat - syarat beasiswa unggulan: 1.Maksimal 22 Tahun 2.Terdaftar di perguruan tinggi yang terakreditasi minimal B 3. maksimal semester 2 pada saat mendaftar yang dibuktikan dengan surat tanda aktif kuliah 4. IPK minimal 3.25 pada skala 0 5.Memiliki prestasi minimal tingkat kabupaten yang diselenggarakan oleh pemerintah dan/atau masyarakat, sertifikat berlaku maksimal 3 (tiga) tahun terakhir 6.Peraih juara peringkat 5 besar Nb: pendaftaran online ke https://buonline.beasiswaunggulan.kemdikbud.go.id"
+        ]
+      },
+      {
+        "tag": "beasiswa13",
+        "patterns": [
+          "Persyaratan beasiswa prestasi apa ?"
+        ],
+        "responses": [
+          "- FC.Sertifikat kejuaraan (tingkat lokal,nasional,internasional) - Surat rekomendasi dari fakultas"
+        ]
+      },
+      {
+        "tag": "beasiswa14",
+        "patterns": [
+          "Persyaratan beasiswa BRI apa ?"
+        ],
+        "responses": [
+          "1.Usia Maksimum 23 tahun(pada saat permohonan beasiswa diajukan) 2.Indeks Prestasi Komukatif (IPK) minimal 3.00 (dibuktikan dengan Transkip nilai dari TU fakultas) 3.Surat keterangan tidak mampu dari kepala kelurahan setempat 4.Slip Gaji atau surat keterangan penghasilan orang tua 5.Surat keterangan belum bekerja dan belum menikah dari kepala kelurahan stempat. 6.Fotocopy KTP,Kartu Keluarga dan Kartu Tanda Mahasiswa yang berlaku. 7.pas foto ukuran 4x6 (berwarna dan memakai jaket almamater. . mahasiswa minimal semester III dan maksimal semester VII NB: pendaftaran dibuka bulan mei-juni"
+        ]
+      },
+      {
+        "tag": "beasiswa15",
+        "patterns": [
+          "Persyaratan beasiswa BCA FINANCE apa ?"
+        ],
+        "responses": [
+          "1. Mahasiswa S1 2. Minimal telah menyelesaikan semester II 3. IPK minimal 3,40 4. Tidak menerima beasiswa dari pihak manapun 5. Beasiswa bebas dari ikatan dinas 6. Pendaftaran secara online ( www.bcafinance.co.id) 7. Besar Rp.3000.000,- per semestr Dibuka bulan okotober"
+        ]
+      },
+      {
+        "tag": "beasiswa16",
+        "patterns": [
+          "Persyaratan beasiswa BIDIKMISI apa ?"
+        ],
+        "responses": [
+          "Untuk calon mahasiswa (mahasiswa baru) 1. Kartu Peserta dan formulir pendaftaran program Bidikmisi yang dicetak dari web Bidikmisi 2. Surat rekomendasi dari kepala sekolah (menyatakan siswa dicalonkan bidikmiisi 3. Surat keterangan lulus sekolah dari kepala sekolah dilegalisir. 4. FC.Rapor semester 1 s. d 6 yang dilegalisir oleh kepala sekolah 5. FC.Ijazah yg dilegalisir oleh kepala sekolah 6. FC. nilai UAN yg dilegalisir kepala sekolah 7. surat keterangan prestasi/pendukung lainnya (tidak wajib) 8. Prestasi lain di bidang ko-kurikuler dan ektrakurikuler yg disyahkan kepala sekolah ( tidak wajib) 9. FC.Kartu Pengaman Sosial (KPS/BSM) jika merupakan penerima BSM 10. Kartu Penjamin Sosial (jika bukan penerima KPS/BSM) 11. FC.KK terbaru 12. FC.rekening listrik bulan terakhir (apabila tersedia dialiri listrik) 13. Bukti pembayaran PBB dari orang tua wali 14. Screenshot hasil upload foto di sim Bidikmisi (foto mahasiswa) 15.Screenshot hasil upload foto di sim bidikmisi (foto keluarga) 16. Screenshot hasil uploadfoto di sim bidikmisi (foto rumah tampak depan dan ruang keluarga) 17.Screenshot hasil uploadfoto di sim bidikmisi (SKTM/KPS/BSM) 18.Surat keterangan penghasilan orang tua/wali NB: masing masing 2 lembar"
+        ]
+      },
+      {
+        "tag": "beasiswa17",
+        "patterns": [
+          "Persyaratan beasiswa YAYASAN TUNAS MUDA CENDEKIA apa ?"
+        ],
+        "responses": [
+          "1. Usia Maksimum 25 tahun(pada saat permohonan beasiswa diajukan) 2. Indeks Prestasi Komukatif (IPK) minimal 3.00 (dibuktikan dengan Transkip nilai dari TU fakultas) 3. Surat keterangan tidak mampu dari kepala kelurahan setempat 4. Slip Gaji atau surat keterangan penghasilan orang tua 5. Surat keterangan belum bekerja dan belum menikah dari kepala kelurahan stempat. 6. Fotocopy KTP,Kartu Keluarga dan Kartu Tanda Mahasiswa yang berlaku. 7. Pas foto ukuran 4x6 (berwarna dan memakai jaket almamater. 8. Mahasiswa minimal semester II dan maksimal semester VI untuk program S1 dan semester V untuk program D3 NB: pendaftaran dibuka bulan Pebruari"
+        ]
+      },
+      {
+        "tag": "beasiswa18",
+        "patterns": [
+          "Beasiswa OIKOUMENE persyaratannya apa ?"
+        ],
+        "responses": [
+          "Syarat-syarat: 1. Foto berwarna (terbaru) ukuran 3x4 cm sebanyak 1 lembar 2.FC.KTP, FC.KTM yang masih berlaku 3.FC.akte kelahiran 1lembar 4. FC.surat ket.Baptis / surat ket.Sidi 1 lembar 5. FC.Ijazah SMA dan FC.Nilai UJIan Naional yg dilegalisir 1 lembar 6.program studi terakredetasi A atau B, 7. Transkip NIlai IPK 3.00 sejak awal semester 1 sampai pendaftaran dibuka 8. FC.KHS 9.Surat referensi dari gereja/jemaat 10. Surat rekomendasi dai Universitas 11. surat pernyataan tertulis apabila sudah selesai studi dan sudah bekerja akan turut bertanggung jawab dalam mengembangkan program beasiswa Oikoumene PGI dg memberikan kontribusi dana secara rutin sesuai kemampuan pendaftaran dibuka setiap bulan Mei"
+        ]
+      },
+      {
+        "tag": "beasiswa19",
+        "patterns": [
+          "Apa Persyaratan beasiswa BAZNAS (Badan Amil Zakat Nasional) ?"
+        ],
+        "responses": [
+          "1.Warga Kota Semarang dan beragama Islam ( melampirkan KTP) 2.FC.Kartu Keluarga 3.Surat Keterangandari Takmir masjid setempat 4.FC.Kartu Mahasiswa 5.IPK minimal 3.00 (minimal semester IV) 6.FC.KHS 7.Surat tidak menerima beasiswa dari kampus 8.Foto ukuran 3x4 warna sebanyak 2 lembar 9.Mengisi form pendaftaran online (http://beasiswa.baznaskotasemarang.org) 10.Membuat surat kelayakan mendapat beasisiwa"
+        ]
+      },
+      {
+        "tag": "beasiswa20",
+        "patterns": [
+          "Apa persyaratan beasiswa KIP KULIAH BANTUAN UKT/SPP ?"
+        ],
+        "responses": [
+          "Syarat: 1. FC.KTM 2. FC.KTP 3. Transkip Nilai (bisa di downlad di siadin) 4. Mahasiswa aktif semester 3,5 dan 7 5. Prioritas bagi mahasiswa yang mempunyai kartu KKS (kartu Keluarga Sejahtera), Program Keluarga Harapan (PKPH) 6. Surat Keterangan Penghasilan Orang Tua / Slip gaji 7. Surat Terdampak Covid-19, Tanda tangan Ka. Prodi kosongkan 8. FC.KK Selengkapnya cek di http://bima.dinus.ac.id/v2016/main/syarat_beasiswa"
+        ]
+      },
+      {
+        "tag": "beasiswa21",
+        "patterns": [
+          "Apa persyaratan beasiswa BFI FINANCE, Penyelenggara PT.BFI FINANCE INDOESIA Tbk ?"
+        ],
+        "responses": [
+          "1. Mahasiswa WNI semua program studi (diutamakan fakultas ekonomi semua jurusan) 2. Sedang menjalani semester 4 hingga 6 3. IPK minimal 3.00 ( tiga semester terakhir berturut turut. 4.Tidak sedang menerima beasiswa dari instansi lain"
+        ]
+      },
+      {
+        "tag": "beasiswa22",
+        "patterns": [
+          "Apa saja persyaratan KIP KUlLIAH, Penyelenggara:LLDIKTI ?"
+        ],
+        "responses": [
+          "1. Formulir KIP ( dari sistem KIP) 2. Surat Keterangan Rekomendasi dari Kepala Sekolah 3. Surat Keterangan Penghasilan Orang Tua (disahkan kelurahan 4. Surat Keterangan Tidak Mampu (disahkan kecamatan) 5. Fotokopi KTP ( usia saat mendftar paling tingi 21 Tahun) 6. Fotokopi KIP,BSM,KPS.KKS,PKH (jika ada) yang masih berlaku 7. Fotokopi Ijazah legalisir ( menyusul) 8. Fotokopi Raport semester 1 s.d 6 legalisir 9. Fotokopi Surat Ket.Lulus legalisir 10.Fotokopi Prestasi ( jika ada) 11.Fotokopi PBB 12.Fotokopi Katu Keluarga 13.Fotokopi Rekening listrik 14.Print screen ( depan rumah, ruang tamu, keluarga dari sistem KIP) 15.Print screen (SKTM/KIP,KPS,BSM,KKS) pendaftarn melalui web KIP K dengan alamat KIP-Kuliah.Kemdikbud.go.id/siswa/pendaftaran/baru semua berkas pendaftaran dikumpulkan ke email bima (sekretariat@bima.dinus.ac.id) dengan bentuk pdf."
+        ]
+      },
+      {
+        "tag": "biro_kemahasiswaan1",
+        "patterns": [
+          "Dimana Alamat Biro Kemahasiswaan ?"
+        ],
+        "responses": [
+          "Di Gedung A Lantai 1 Universitas Dian Nuswantoro Jl. Nakula No. 5-11 Semarang"
+        ]
+      },
+      {
+        "tag": "komunitas1",
+        "patterns": [
+          "Komunitas apa saja yang ada di Udinus ?"
+        ],
+        "responses": [
+          "Komunitas yang ada di Udinus antara lain : Doscom, Panser Udinus, berbagai UKM serta Himpunan Mahasiswa, dll."
+        ]
+      },
+      {
+        "tag": "mawapres1",
+        "patterns": [
+          "Apa itu Mawapres ?"
+        ],
+        "responses": [
+          "Mawapres adalah singkatan dari Mahasiswa Berprestasi, baik berprestasi di Akademik ataupun berprestasi dibidang organisasi serta kegiatan lain yang menunjang."
+        ]
+      },
+      {
+        "tag": "mawapres2",
+        "patterns": [
+          "Apa syarat mengikuti Mawapres ?"
+        ],
+        "responses": [
+          "Persyaratannya : 1. Mahasiswa aktif min semester 5 2. Membuat karya tulis sesuai dengan tema yang akan diperlombakan. 3. Mengumpulkan bukti sertifikat seluruh kegiatan yang diikuti. 4. Mendaftarkan diri ke Fakultas masing-masing."
+        ]
+      },
+      {
+        "tag": "mawapres3",
+        "patterns": [
+          "Kapan mulai pendaftaran Mawapres ?"
+        ],
+        "responses": [
+          "Sekitar bulan November."
+        ]
+      },
+      {
+        "tag": "mawapres4",
+        "patterns": [
+          "Dimana kita bisa mendapatkan informasi lebih lanjut tentang Mawapres ?"
+        ],
+        "responses": [
+          "1. Papan Pengumuman 2. Dapat dilihat di Facebook Bima (https://www.facebook.com/bimadinus?fref=ts) 3. dapat diliat dari web Bima di http://bima.dinus.ac.id/"
+        ]
+      },
+      {
+        "tag": "mawapres5",
+        "patterns": [
+          "Apa manfaatnya mengikuti Mawapres ?"
+        ],
+        "responses": [
+          "Manfaatnya : menumbuhkan rasa berkompetisi, mempunyai banyak teman, mempunyai pengalaman baru."
+        ]
+      },
+      {
+        "tag": "mawapres6",
+        "patterns": [
+          "Ada berapa tahap seleksi Mawapres ?"
+        ],
+        "responses": [
+          "Tahap seleksi Mawapres : 1. Seleksi Administrasi oleh Fak. 2. Seleksi Presentasi Fak. 3. yang dinyatakan Layak oleh Fak. masing-masing,akan dikirim ke universitas untuk mengikuti lomba Mawapres Tingkat Univ. 4. Jika masuk kedalam 3 Besar kandidat Mawapres Utama tingkat Univ, akan di seleksi lagi untuk mengetahui mana yang layak di kirim ke tingkat Kopertis. 5. Di tingkat Kopertis, akan dipertandingkan oleh Univ lain. 6. Jika masuk 3 besar tingkat Kopertis, akan dikirim ke Tingkat Nasional."
+        ]
+      },
+      {
+        "tag": "organisasi_mahasiswa1",
+        "patterns": [
+          "Ada berapa organisasi mahasiswa di Udinus ?"
+        ],
+        "responses": [
+          "•BEM Keluarga Mahasiswa •BEM Fakultas Kesehatan •BEM Fakultas Ilmu Budaya •BEM Fakultas Ekonomi dan Bisnis •BEM Fakultas Ilmu Komputer •BEM Fakultas Teknik •MPM Keluarga Mahasiswa •DPM Fakultas Kesehatan •DPM Fakultas Ilmu Komputer •DPM Fakultas Ilmu Budaya •DPM Keluarga Mahasiswa •DPM Fakultas Ekonomi dan Bisnis •DPM Fakultas Teknik •HM Teknik Informatika •HM Sistem Informasi •HM Akuntansi •HIKARI •HM Bahasa Inggris •HM Desain Komunikasi Visual •HM Kesehatan Masyarakat •HM Rekam Medik dan Informasi Kesehatan •HM D Teknik Informatika •HM Manajemen •HM Ilmu Komunikasi •HM Teknik Industri •HM Teknik Elektro •HM Pengelolaan Perhotelan •HM Kesehatan Lingkungan •HM Pengelolaan •DOSCOM •Biro Animasi •HM TEKNIK BIOMEDIS •Radio Swara Dian •Biro FTV •BIRO ROBOTIKA •TOBACCO FREE COMMUNITY •TAX CENTER •KELOMPOK STUDI PASAR MODAL •Biro Dinus Innovation Design Community"
+        ]
+      },
+      {
+        "tag": "organisasi_mahasiswa2",
+        "patterns": [
+          "Apa manfaat masuk ke organisasi mahasiswa ?"
+        ],
+        "responses": [
+          "Manfaatnya : 1. mendapat pengalaman tentang kerja tim, 2. pengalaman dibidang sosialisasi, 3. pengalaman dibidang lobbying dan masih banyak lagi."
+        ]
+      },
+      {
+        "tag": "organisasi_mahasiswa3",
+        "patterns": [
+          "Apa itu Organisasi Mahasiswa (ORMAWA) ?"
+        ],
+        "responses": [
+          "Organisasi Mahasiswa (ORMAWA) adalah organisasi yang beranggotakan mahasiswa untuk mewadahi bakat, minat dan potensi mahasiswa di Udinus"
+        ]
+      },
+      {
+        "tag": "organisasi_mahasiswa4",
+        "patterns": [
+          "Apakah dapat mendaftar 2 atau lebih organisasi mahasiswa sekaligus ?"
+        ],
+        "responses": [
+          "Tidak bisa, mahasiswa Udinus hanya dapat menjadi anggota 1 organisasi mahasiswa saja"
+        ]
+      },
+      {
+        "tag": "organisasi_mahasiswa5",
+        "patterns": [
+          "Semester berapa mahasiswa dapat mendaftar sebagai ormawa ?"
+        ],
+        "responses": [
+          "Mulai dari maba atau mahasiswa baru semester 1 sudah bisa mendaftar sebagai ormawa."
+        ]
+      },
+      {
+        "tag": "organisasi_mahasiswa6",
+        "patterns": [
+          "Apa manfaat yang didapat jika mengikuti sebuah ormawa ?"
+        ],
+        "responses": [
+          "- Menambah relasi - Belajar mengatur waktu - Meningkatkan softskill dan hardskill - Meningkatkan public speaking - Melatih leadership - Meningkatkan wawasan dan pengetahuan - Melatih kemampuan bersosial - Membentuk mental kuat dalam menghadapi tekanan - Ajang latihan dunia kerja yang sesungguhnya"
+        ]
+      },
+      {
+        "tag": "organisasi_mahasiswa7",
+        "patterns": [
+          "Bagaimana cara mendaftar sebuah ormawa ?"
+        ],
+        "responses": [
+          "Silahkan cek pada sosial media ormawa masing - masing yang ingin anda daftar."
+        ]
+      },
+      {
+        "tag": "penelitian_karya_ilmiah1",
+        "patterns": [
+          "Ada berapa macam kegiatan peneliitian/karya ilmiah yang dapat diikut oleh mahasiswa UDINUS ?"
+        ],
+        "responses": [
+          "Ada 3 macam : 1. PKM (Program Kreatifitas Mahasiswa) 2. Program Fasilitasi PemProP Jateng 3. Karya Ilmiah di Gemastik"
+        ]
+      },
+      {
+        "tag": "penelitian_karya_ilmiah2",
+        "patterns": [
+          "Apa itu PKM ?"
+        ],
+        "responses": [
+          "PKM adalah Program Kreatifitas Mahasiswa yang di selenggarakan oleh DIKTI. PKM ini terdiri dari 7 jenis yang dapat diikuti, yaitu : PKM-K (Program Kreatifitas Mahasiswa bagian Kewirausahaan), PKM-M (Program Kreatifitas Mahasiswa bagian Pengabdian Masyarakat), PKM-P (Program Kreatifitas Mahasiswa bagian Penelitian), PKM-T (Program Kreatifitas Mahasiswa bagian Teknologi), PKM-KC(Program Kreatifitas Mahasiswa bagian Karsa Cipta), PKM-AI (Program Kreatifitas Mahasiswa bagian Artikel Ilmiah), PKM-GT (Program Kreatifitas Mahasiswa bagian Gagasan Tertulis)."
+        ]
+      },
+      {
+        "tag": "penelitian_karya_ilmiah3",
+        "patterns": [
+          "Apa itu Program Fasilitasi Pemprop Jateng ?"
+        ],
+        "responses": [
+          "Sebuah Program penelitian/ karyatulis Ilmiah yang dapat diikuti oleh mahasiswa se Jateng. Penyelenggara Program Fasilitasi ini adalah Pemprop Jateng, Dinas Pendidikan Kota Semarang. Ada beberapa Bidang yang dapat diikuti : RBTM(Rancang Bangun Teknologi), Kewirausahaan"
+        ]
+      },
+      {
+        "tag": "penelitian_karya_ilmiah4",
+        "patterns": [
+          "Dimana kita bisa mendapatkan informasi tentang penelitian/ karya Ilmiah ?"
+        ],
+        "responses": [
+          "1. Papan Pengumuman 2. Dapat dilihat di Facebook Bima (https://www.facebook.com/bimadinus?fref=ts)"
+        ]
+      },
+      {
+        "tag": "unit_kegiatan_mahasiswa1",
+        "patterns": [
+          "Ada berapa Unit Kegiatan Mahasiswa di UDINUS ?"
+        ],
+        "responses": [
+          "Ada 18 UKM, yaitu : Dncc, Aldaka, Pkkmk, Pers Kampus, Pramuka, Bulu Tangkis, PMK, Teater, Musik, Menwa, Psm, Bai, Sepak Bola, Tae Kwon Do, Basket, Ksr, Penalaran, Karate"
+        ]
+      },
+      {
+        "tag": "unit_kegiatan_mahasiswa2",
+        "patterns": [
+          "Bagaimana cara untuk masuk ke Unit kegiatan Mahasiswa ?"
+        ],
+        "responses": [
+          "Bisa langsung menghubungi pihak UKM yang diinginkan. Karena setiap UKM akan membuka pendaftaran untuk mahasiswa yang ingin bergabung."
+        ]
+      },
+      {
+        "tag": "unit_kegiatan_mahasiswa3",
+        "patterns": [
+          "Apa itu UKM ?"
+        ],
+        "responses": [
+          "Unit Kegiatan Siswa (UKM) yaitu lembaga kemasiswaan tempat berkumpulnya mahasiswa yang memiliki kesamaan minat, bakat dan kreatifitas. Di bangku sekolah, UKM lebih sering dikenal dengan istilah ekstrakulikuler atau ekskul"
+        ]
+      },
+      {
+        "tag": "unit_kegiatan_mahasiswa4",
+        "patterns": [
+          "Apa saja UKM yang ada di Udinus ?"
+        ],
+        "responses": [
+          "•ALDAKAWANASETA •Pelayanan Kerasulan Keluarga Mahasiswa Katolik •PERS KAMPUS •PRAMUKA Racana Dian Nuswantoro •BULU TANGKIS •Persekutuan Mahasiswa Kristen •TEATER KAPLINK •MUSIK •Resimen Mahasiswa Batalyon 948 Macan Kumbang •Paduan Suara Mahasiswa Gita Dian Nuswa •Badan Amalan Islam Matholi ul Anwar •SEPAK BOLA •TAE KWON DO •BOLA BASKET •KORPS SUKA RELA PMI •KARATE •Dian Nuswantoro Computer Club •Rumah Sahabat •BOLA VOLLEY •PENALARAN •KOMISI PEMILIHAN UMUM RAYA •CATUR UDINUS"
+        ]
+      },
+      {
+        "tag": "unit_kegiatan_mahasiswa5",
+        "patterns": [
+          "Apakah dapat mendaftar 2 atau lebih UKM sekaligus ?"
+        ],
+        "responses": [
+          "Bisa, mahasiswa Udinus dapat mengikuti lebih dari 2 UKM"
+        ]
+      },
+      {
+        "tag": "unit_kegiatan_mahasiswa6",
+        "patterns": [
+          "Semester berapa mahasiswa dapat mendaftar sebagai anggota UKM ?"
+        ],
+        "responses": [
+          "Mulai dari maba atau mahasiswa baru semester 1 sudah bisa mendaftar sebagai anggota UKM"
+        ]
+      },
+      {
+        "tag": "unit_kegiatan_mahasiswa7",
+        "patterns": [
+          "Apa manfaat yang didapat jika mengikuti sebuah UKM ?"
+        ],
+        "responses": [
+          "- Menambah relasi - Belajar mengatur waktu - Meningkatkan softskill dan hardskill - Meningkatkan public speaking - Melatih leadership - Meningkatkan wawasan dan pengetahuan - Melatih kemampuan bersosial - Membentuk mental kuat dalam menghadapi tekanan - Belajar mengatur waktu - Meningkatkan softskill dan hardskill - Meningkatkan public speaking - Melatih leadership - Meningkatkan wawasan dan pengetahuan - Melatih kemampuan bersosial"
+        ]
+      },
+      {
+        "tag": "unit_kegiatan_mahasiswa8",
+        "patterns": [
+          "Bagaimana cara mendaftar sebuah UKM ?"
+        ],
+        "responses": [
+          "Untuk pendaftaran dapat dilihat pada sosial media UKM masing - masing yang ingin anda daftar"
+        ]
+      },
+      {
+        "tag": "beban_kinerja_dosen1",
+        "patterns": [
+          "Apa yang dimaksud dengan beban kinerja dosen (BKD) ?"
+        ],
+        "responses": [
+          "Beban kinerja dosen adalah beban kerja yang diberikan kepada masing – masing dosen berupa jumlah sks untuk mengajar."
+        ]
+      },
+      {
+        "tag": "beban_kinerja_dosen2",
+        "patterns": [
+          "Apa saja yang tertuang di Beban Kinerja Dosen (BKD) ?"
+        ],
+        "responses": [
+          "Setiap semester BKD diproses, adapun isinya adalah Beban mengajar (SKS masing masing matakuliah, SK mengajar) Jumlah Penelitian Jumlah Pengabdian Kegiatasn Keprofesoran (bagi yang profesor)"
+        ]
+      },
+      {
+        "tag": "beban_kinerja_dosen3",
+        "patterns": [
+          "Siapa saja yang mengesahkan Beban Kinerja Dosen dari masing masing dosen ?"
+        ],
+        "responses": [
+          "Rektor dan Ka.Prodi"
+        ]
+      },
+      {
+        "tag": "informasi_dosen1",
+        "patterns": [
+          "Dimana kita dapat mengakses informasi tentang Dosen di Udinus ?"
+        ],
+        "responses": [
+          "Informasi Dosen dapat diakses melalui website masing – masing fakultas pada menu Staff Dosen atau dengan Search people pada hompage Udinus."
+        ]
+      },
+      {
+        "tag": "pelayanan_biku1",
+        "patterns": [
+          "Jika saya membayar lewat BCA, kemanakah saya mengirim bukti pembayarannya ?"
+        ],
+        "responses": [
+          "Jika melakukan pembayaran biaya kuliah selain lewat bank bpd jateng maka harus membawa bukti pembayaran ke biku di gedung G lantai 1."
+        ]
+      },
+      {
+        "tag": "pelayanan_biku2",
+        "patterns": [
+          "Sudah bayar tapi tagihan keuangan belum terbayar ?"
+        ],
+        "responses": [
+          "Kemungkinan pembayaran anda belum di validasi oleh biku untukk mempercepat validasi silahkan membawa bukti pembayaran ke biku untuk segera di onlinekan"
+        ]
+      },
+      {
+        "tag": "pelayanan_biku3",
+        "patterns": [
+          "Adakah hotline BIKU yang bisa dihubungi untuk menanyakan perihal pembayaran kuliah ?"
+        ],
+        "responses": [
+          "Ada, silahkaan menghubungi WA BIKU OFFICIAL 081226087007"
+        ]
+      },
+      {
+        "tag": "pelayanan_biku4",
+        "patterns": [
+          "Konsultasi Administrasi Keuangan dengan siapa ya ?"
+        ],
+        "responses": [
+          "Silahkan dikonsultasikan dengan kontak dibawah ini : Bapak Triatmo : 081215992479 Ibu Yunita : 081225026179"
+        ]
+      },
+      {
+        "tag": "pembayaran_virtual_account1",
+        "patterns": [
+          "Apakah pembayaran (SPP,SKS,POLI,MODUL,USPI) bisa menggunakan Virtual Account (VA) ?"
+        ],
+        "responses": [
+          "Bisa"
+        ]
+      },
+      {
+        "tag": "pembayaran_virtual_account2",
+        "patterns": [
+          "Metode Pembayaran REGULER (SPP,SKS,POLI,MODUL,USPI) bisa menggunakan Virtual Account via Bank apa saja ?"
+        ],
+        "responses": [
+          "1. Virtual Account Bank Jateng (AutoValidasi) 2. Rekening Mandiri Virtual Account (AutoValidasi H+1) 3. Rekening BCA Virtual Account ( Autovalidasi )"
+        ]
+      },
+      {
+        "tag": "pembayaran_virtual_account3",
+        "patterns": [
+          "Bagaimana mengetahui nomer VA untuk melakukan pembayaran (SPP,SKS,POLI,MODUL,USPI) ?"
+        ],
+        "responses": [
+          "Silahkan cek pada Siadin di menu keuangan"
+        ]
+      },
+      {
+        "tag": "rekening_pembayaran1",
+        "patterns": [
+          "Ke nomor rekening mana saja pembayaran kuliah dapat dilakukan ?"
+        ],
+        "responses": [
+          "1) Bank Jateng Cab. Udinus Semarang a/n Universitas Dian Nuswantoro No Rek: 1.099.00001.3\n2) Bank Mandiri Cab.Candi Baru Semarang a/n Universitas Dian Nuswantoro No. Rek: 136.000.5359.200\n3) Bank BCA Cab. Pemuda a/n Universitas Dian Nuswantoro No. Rek : 099.382056.5\n4) Bank BRI Cab. Pandaran a/n Universitas Dian Nuswantoro No. Rek : 0325.01.00 1102.30.6"
+        ]
+      },
+      {
+        "tag": "status_pembayaran1",
+        "patterns": [
+          "Dimana saya bisa melihat status pembayaran ?"
+        ],
+        "responses": [
+          "Di Siadin Mahasiswa"
+        ]
+      },
+      {
+        "tag": "status_pembayaran2",
+        "patterns": [
+          "Apakah ada keringanan biaya uang gedung untuk jalur PMDK ?"
+        ],
+        "responses": [
+          "Ada, sebesar 25%"
+        ]
+      },
+      {
+        "tag": "status_pembayaran3",
+        "patterns": [
+          "Apa syarat untuk membayar wisuda ?"
+        ],
+        "responses": [
+          "Sudah masuk di data yudisium"
+        ]
+      },
+      {
+        "tag": "status_pembayaran4",
+        "patterns": [
+          "Bagaimana jika mahasiswa sudah membayar uang SPP, tetapi di dalam data tidak terdaftar ?"
+        ],
+        "responses": [
+          "Konfirmasi ke BIRO Keuangan"
+        ]
+      },
+      {
+        "tag": "status_pembayaran5",
+        "patterns": [
+          "Bagaimana jika mahasiswa ingin mengetahui informasi pembayaran uang gedung ?"
+        ],
+        "responses": [
+          "Menghubungi biro keuangan, atau akses admisi dinus.ac.id/pmbonline"
+        ]
+      },
+      {
+        "tag": "tagihan1",
+        "patterns": [
+          "Dimana saya bisa melihat jumlah tagihan yang ada ?"
+        ],
+        "responses": [
+          "Di Siadin Mahasiswa, melalui surat tagihan yang sudah di kirim, atau melalui Biro Keuangan (BIKU)"
+        ]
+      },
+      {
+        "tag": "tagihan2",
+        "patterns": [
+          "Jika saya terlambat membayar tagihan, apa yang harus saya lakukan ?"
+        ],
+        "responses": [
+          "Hubungi Bagian Biro Keuangan - 081226087007"
+        ]
+      },
+      {
+        "tag": "tagihan3",
+        "patterns": [
+          "Berapa biaya per SKS ?"
+        ],
+        "responses": [
+          "Per SKS Rp.250.000"
+        ]
+      },
+      {
+        "tag": "tagihan4",
+        "patterns": [
+          "Dimana mahasiswa bisa mengetahui tagihan SKS ?"
+        ],
+        "responses": [
+          "Di SiAdin masing-masing, di menu akademik - informasi keuangan"
+        ]
+      },
+      {
+        "tag": "tagihan5",
+        "patterns": [
+          "Apakah struk tagihan bulanan di kirim ke rumah ?"
+        ],
+        "responses": [
+          "Tidak"
+        ]
+      },
+      {
+        "tag": "tagihan6",
+        "patterns": [
+          "Bagaimana jika saya terlambat untuk membayar SKS ?"
+        ],
+        "responses": [
+          "Tidak boleh ikut ujian"
+        ]
+      },
+      {
+        "tag": "tagihan7",
+        "patterns": [
+          "Dimana saya bisa mengambil struk tagihan SPP ?"
+        ],
+        "responses": [
+          "Di Biro Keuangan"
+        ]
+      },
+      {
+        "tag": "tagihan8",
+        "patterns": [
+          "Jika ada mahasiswa yang cuti , apakah masih menanggung tagihan bulanan ?"
+        ],
+        "responses": [
+          "Tidak, hanya SPP saja"
+        ]
+      },
+      {
+        "tag": "fakultas_ilmu_budaya1",
+        "patterns": [
+          "Ada berapa ruang laboratorium di gedung G (Fakultas Ilmu Budaya) ?"
+        ],
+        "responses": [
+          "Ada 2 ruang laboratorium antara lain : Lab. Computer Vision (G.2) , Lab. Kamar Perhotelan (G.5)"
+        ]
+      },
+      {
+        "tag": "fakultas_ilmu_komputer1",
+        "patterns": [
+          "Ada berapa ruang laboratorium di gedung H (Fakultas Ilmu Komputer) ?"
+        ],
+        "responses": [
+          "Ada 5 ruang laboratorium antara lain : Lab. Fotografi (H.3) , Lab. Data Mining (H.3) , Lab. Post Production (H.3) , Lab. Animasi (H.3) , Lab. Ilmu Komunikasi (H.4)"
+        ]
+      },
+      {
+        "tag": "fakultas_kesehatan1",
+        "patterns": [
+          "Ada berapa ruang laboratorium di gedung D (Fakultas Kesehatan) ?"
+        ],
+        "responses": [
+          "Ada 12 ruang laboratorium antara lain : Lab. Basis Data (D.2) , Lab. RPL (D.2) , Lab. Komputer (D.2) , Lab. K3 (D.3) , Lab. Riset (D.3) , Lab. Promosi & Audio Visual (D.3) , Lab. Riset (D.3) , Lab. Bahasa (D.3) , Lab. Rekam Medis (D.3) , Lab. Statistik (D.3) , Lab. Koding & Reimbursement (D.3) , Lab. Esport (D.5)"
+        ]
+      },
+      {
+        "tag": "fakultas_teknik1",
+        "patterns": [
+          "Ada berapa ruang laboratorium di Gedung I (Fakultas Teknik) ?"
+        ],
+        "responses": [
+          "Ada 6 ruang laboratorium antara lain : Lab. Dasar (I.3.6) , Lab. Robotika (I.2.6), Lab. Rehabilitasi (I.3.5) , Lab. EBT (I.4.4), Lab. Instrumentasi (I.3.7), Lab. Fisika (I.2.7)"
+        ]
+      },
+      {
+        "tag": "layanan_poliklinik1",
+        "patterns": [
+          "Jika saya pergi berobat ke poliklinik Udinus, perlukah saya membayar untuk pelayanan & obatnya ?"
+        ],
+        "responses": [
+          "Tidak, dikarenakan pembayaran poliklinik sudah masuk dalam pembayaran semesteran."
+        ]
+      },
+      {
+        "tag": "layanan_poliklinik2",
+        "patterns": [
+          "Ada berapa jenis poli yang ada di poliklinik Udinus ?"
+        ],
+        "responses": [
+          "Poli Umum dan Poli Gigi serta Poli Psikologi"
+        ]
+      },
+      {
+        "tag": "layanan_poliklinik3",
+        "patterns": [
+          "Sebagai mahasiswa, syarat apa yang wajib dijadikan standar pelayanan di Poliklinik Udinus ?"
+        ],
+        "responses": [
+          "Harus berstatus Aktif dan membawa KTM pada saat berkunjung ke Poliklinik"
+        ]
+      },
+      {
+        "tag": "layanan_poliklinik4",
+        "patterns": [
+          "Bagaimana cara berobat ke poliklinik Udinus ?"
+        ],
+        "responses": [
+          "Cukup datang ke poliklinik dengan membawa KTM saja"
+        ]
+      },
+      {
+        "tag": "layanan_poliklinik5",
+        "patterns": [
+          "Jam pelayanan Poliklinik Udinus ?"
+        ],
+        "responses": [
+          "Senin - Jumat jam 08.00 - 15.00 WIB"
+        ]
+      },
+      {
+        "tag": "kehilangan1",
+        "patterns": [
+          "Bagaimana jika terjadi kendaraan motor / mobil hilang ?"
+        ],
+        "responses": [
+          "Udinus tidak bertanggung jawab atas kehilangan kendaraan secara materi. Akan tetapi Udinus dapat membantu mencari pelaku dengan rekaman CCTV."
+        ]
+      },
+      {
+        "tag": "kehilangan2",
+        "patterns": [
+          "Adakah tempat penitipan helm di Udinus ?"
+        ],
+        "responses": [
+          "Tidak ada"
+        ]
+      },
+      {
+        "tag": "kehilangan3",
+        "patterns": [
+          "Bagaimana jika terjadi helm / barang yang hilang saat parkir di Udinus ?"
+        ],
+        "responses": [
+          "Apabila ada kehilangan helm bukan tanggung jawab tukang parkir , jadi segala helm/barang yang bersifat mahal/penting sebaiknya dibawa oleh mahasiswa saja"
+        ]
+      },
+      {
+        "tag": "keluar_masuk1",
+        "patterns": [
+          "Bagaimana jika pada saat keluar parkir tidak dapat menunjukkan STNK ?"
+        ],
+        "responses": [
+          "Anda harus mengisikan data diri dan kendaraan pada pos parkir dan meninggalkan KTM/KTP kemudian meminta tanda tangan satpam."
+        ]
+      },
+      {
+        "tag": "keluar_masuk2",
+        "patterns": [
+          "Bagaimana cara mengambil kembali KTP/KTM yang ditahan saat tidak membawa STNK ?"
+        ],
+        "responses": [
+          "KTP/KTM dapat diambil dengan menunjukan STNK dari kendaraan tersebut."
+        ]
+      },
+      {
+        "tag": "peraturan_parkir1",
+        "patterns": [
+          "Syarat parkir di Udinus ?"
+        ],
+        "responses": [
+          "Menunjukkan STNK sebagai tanda bukti kepemilikan kendaraan"
+        ]
+      },
+      {
+        "tag": "peraturan_parkir2",
+        "patterns": [
+          "Siapa saja yang boleh parkir di Udinus ?"
+        ],
+        "responses": [
+          "Hanya Civitas Udinus"
+        ]
+      },
+      {
+        "tag": "peraturan_parkir3",
+        "patterns": [
+          "Apakah dapat mengunci stang jika parkir di Udinus ?"
+        ],
+        "responses": [
+          "Tidak dianjurkan untuk mengunci stang"
+        ]
+      },
+      {
+        "tag": "peraturan_parkir4",
+        "patterns": [
+          "Adakah syarat untuk parkir sepeda ?"
+        ],
+        "responses": [
+          "Tidak ada"
+        ]
+      },
+      {
+        "tag": "tempat_parkir1",
+        "patterns": [
+          "Dimana parkir mobil dan motor di Udinus ?"
+        ],
+        "responses": [
+          "Untuk semantara ini, area parkir adalah di - Depan gedung B (untuk kendaraan dosen dan staff) - Depan gedung E (untuk mobil dan karyawan TVku) dan sebagian untuk kendaraan mahasiswa - Sebrang gedung E ( untuk mobil ) - Depan gedung G (untuk mobil) - Belakang gedung G (untuk motor) - Sebelah poliklinik (untuk mobil)"
+        ]
+      },
+      {
+        "tag": "tempat_parkir2",
+        "patterns": [
+          "Dimana saja parkir kendaraan roda 2 di Udinus ?"
+        ],
+        "responses": [
+          "- Depan Gedung H (untuk motor) - Sebelah Kanan Gedung G (untuk motor) - Belakang Gedung G (untuk motor) - Depan Gedung G (untuk motor) - Belakang Gedung I (untuk motor) - Sebelah Poliklinik (untuk motor) - Depan Kedai Fotokopi (untuk motor)"
+        ]
+      },
+      {
+        "tag": "tempat_parkir3",
+        "patterns": [
+          "Dimana saja parkir kendaraan roda 4 di Udinus ?"
+        ],
+        "responses": [
+          "- Depan Gedung A (untuk mobil dan motor) - Depan Gedung C (untuk motor dan mobil) - Depan Jalan Arjuna (untuk mobil) - Depan Gedung E (untuk mobil dan motor) - Sebrang Gedung E (untuk mobil dan bus) - Lapangan Basket (untuk mobil)"
+        ]
+      },
+      {
+        "tag": "tempat_parkir4",
+        "patterns": [
+          "Adakah parkir untuk sepeda ?"
+        ],
+        "responses": [
+          "Untuk sementara parkir sepeda sama dengan letak parkir motor"
+        ]
+      },
+      {
+        "tag": "waktu_parkir1",
+        "patterns": [
+          "Jam parkir sampai berapa ?"
+        ],
+        "responses": [
+          "Selain Gedung A, B, C, E parkiran hanya tersedia sampai jam 22.00 WIB"
+        ]
+      },
+      {
+        "tag": "waktu_parkir2",
+        "patterns": [
+          "Bagaimana jika kendaraan terparkir melebihi batas waktu parkir ?"
+        ],
+        "responses": [
+          "Gerbang akan ditutup sehingga motor tidak dapat keluar"
+        ]
+      },
+      {
+        "tag": "waktu_parkir3",
+        "patterns": [
+          "Dapatkah menitipkan motor di lingkungan parkir Udinus melebihi 1 hari ?"
+        ],
+        "responses": [
+          "Jika memang ada keperluan yang mengharuskan kendaraan parkir lebih dari 1 hari mahasiswa wajib lapor satpam agar kendaraan dapat didata"
+        ]
+      },
+      {
+        "tag": "waktu_parkir4",
+        "patterns": [
+          "Apakah boleh parkir di Udinus jika diluar jam kuliah (hari libur) ?"
+        ],
+        "responses": [
+          "Boleh, di tempat parkir yang gerbangnya terbuka"
+        ]
+      },
+      {
+        "tag": "penelitian1",
+        "patterns": [
+          "Bagaimana untuk mengetahui info statistik penelitian yang sudah terlaksana oleh Udinus ?"
+        ],
+        "responses": [
+          "Silahkan cek di website http://lppm.dinus.ac.id/index.php menu statistik"
+        ]
+      },
+      {
+        "tag": "berita1",
+        "patterns": [
+          "Berita Akademik bisa dilihat dimana ?"
+        ],
+        "responses": [
+          "Di Web dinus.ac.id"
+        ]
+      },
+      {
+        "tag": "berita2",
+        "patterns": [
+          "Dimana mahasiswa dapat melihat pengumuman kelas dari dosen ?"
+        ],
+        "responses": [
+          "Mahasiswa dapat melihat pengumuman kelas dari dosen di SiAdin pada Menu Pengumuman"
+        ]
+      },
+      {
+        "tag": "lokasi_percetakan1",
+        "patterns": [
+          "Dimana saya harus mengambil modul ?"
+        ],
+        "responses": [
+          "Sebagian besar modul diambil di percetakan. Lokasinya ada disebelah barat gedung B dan sebelah utara masjid baitull muttaqien"
+        ]
+      },
+      {
+        "tag": "modul_kuliah1",
+        "patterns": [
+          "Dimana saya bisa mengambil modul kuliah ?"
+        ],
+        "responses": [
+          "Di percetakan Udinus di jalan yudistira no 5 ( dekat lapangan basket )"
+        ]
+      },
+      {
+        "tag": "modul_kuliah2",
+        "patterns": [
+          "Apakah wajib mendapatkan dan membayar modul, jika matakuliah yang bermodul tersebut statusnya U (ulang) ?"
+        ],
+        "responses": [
+          "Ya, Wajib. karena tidak ada yang menjamin bahwa modul yang didapatkan pada saat pertama kali mendapatkan modul / pertama kali kuliah mata kuliah tersebut, modulnya masih tersimpan"
+        ]
+      },
+      {
+        "tag": "ebook_ejurnal1",
+        "patterns": [
+          "Dimana mahasiswa dapat mendapatkan e-jurnal yang disediakan oleh kampus ?"
+        ],
+        "responses": [
+          "Mahasiswa dapat mendapatkan e-jurnal yang disediakan oleh kampus di berbagai link berikut : 1. link.springer.com 2. search.proquest.com 3. bit.ly/eJurnalGale 4. emerald.com/insight/"
+        ]
+      },
+      {
+        "tag": "ebook_ejurnal2",
+        "patterns": [
+          "Dimana mahasiswa dapat mendapatkan e-book yang disediakan oleh kampus ?"
+        ],
+        "responses": [
+          "Mahasiswa dapat mendapatkan e-book antara lain : 1.) cambrige.org/core 2.) search.proquest.com"
+        ]
+      },
+      {
+        "tag": "letak_perpustakaan1",
+        "patterns": [
+          "Dimana letak perpustakaan Universitas Dian Nuswantoro ?"
+        ],
+        "responses": [
+          "Perpustakaan terletak di Gedung A lantai 2, tangga menuju perpustakaan ada di dekat Biro Akademik (BIAK)"
+        ]
+      },
+      {
+        "tag": "layanan_perpustakaan1",
+        "patterns": [
+          "Jam pelayanan Perpustakaan di Udinus ?"
+        ],
+        "responses": [
+          "Senin - Jumat 08.00 - 16.00 WIB"
+        ]
+      },
+      {
+        "tag": "layanan_perpustakaan2",
+        "patterns": [
+          "Bagaimana cara meminjam buku di perpustakaan ?"
+        ],
+        "responses": [
+          "Menyerahkan buku dan kartu anggota kepada petugas untuk menyimpan datanya ke sistem."
+        ]
+      },
+      {
+        "tag": "layanan_perpustakaan3",
+        "patterns": [
+          "Bagaimana proses pengembalian buku di perpustakaan ?"
+        ],
+        "responses": [
+          "Menyerahkan buku dan kartu anggota kepada petugas untuk menghapus data peminjaman di sistem."
+        ]
+      },
+      {
+        "tag": "layanan_perpustakaan4",
+        "patterns": [
+          "Bagaimana jika buku yang saya pinjam hilang ?"
+        ],
+        "responses": [
+          "Maka Anda harus mengganti dengan buku yang sama atau mengganti dengan sejumlah denda yang ada."
+        ]
+      },
+      {
+        "tag": "layanan_perpustakaan5",
+        "patterns": [
+          "Berapa jumlah maksimal buku yang bisa di pinjam di perpustakaan Udinus ?"
+        ],
+        "responses": [
+          "Maksimal satu buku."
+        ]
+      },
+      {
+        "tag": "layanan_perpustakaan6",
+        "patterns": [
+          "Dimana saya bisa melihat hasil skripsi mahasiswa Udinus ?"
+        ],
+        "responses": [
+          "Di Perpustakaan Udinus"
+        ]
+      },
+      {
+        "tag": "layanan_perpustakaan7",
+        "patterns": [
+          "Apakah ada denda apabila telat melakukan pengembalian buku ke perpustakaan ?"
+        ],
+        "responses": [
+          "Ada denda apabila telat melakukan pengembalian buku"
+        ]
+      },
+      {
+        "tag": "layanan_perpustakaan8",
+        "patterns": [
+          "Apakah di perpustakaan ada layanan print out ?"
+        ],
+        "responses": [
+          "Ada, layanan print out ini berada di BI Corner dan dapat digunakan oleh seluruh pengguna perpustakaan secara gratis, namun perlu membawa kertas sendiri."
+        ]
+      },
+      {
+        "tag": "layanan_perpustakaan9",
+        "patterns": [
+          "Apakah bisa mengusulkan judul koleksi buku di perpustakaan Udinus ?"
+        ],
+        "responses": [
+          "Bisa, silahkan isi formulir pada link berikut : http://dinuslib.web.id/katalog/index.php?p=usul_buku"
+        ]
+      },
+      {
+        "tag": "turnitin1",
+        "patterns": [
+          "Apa itu Turnitin ?"
+        ],
+        "responses": [
+          "Turnitin adalah perangkat lunak pencocokan teks yang memeriksa karya tulis terhadap teks elektronik dari internet. Teks elektronik ini berisi artikel jurnal, buku, dan tugas-tugas sebelumnya yang diserahkan oleh pengajar atau universitas ke dalam Turnitin. Turnitin sendiri disediakan oleh perusahaan eksternal yang lantas menjual lisensinya pada universitas-universitas untuk menggunakannya secara internal."
+        ]
+      },
+      {
+        "tag": "turnitin2",
+        "patterns": [
+          "Bagaimana cara menggunakan turnitin ?"
+        ],
+        "responses": [
+          "1. Masuk ke webiste Turnitin di turnitin.com dan Login dengan akun Turnitin yang dimiliki. 2. Untuk menggunggah dokumen, klik menu Submit yang terletak di bagian kanan. 3. Halaman akan dialihkan secara otomatis ke kotak dialog Single File Upload yang berisikan identitas dokumen. Di bawahnya, pilih dokumen yang akan di unggah melalui menu Choose From This Comp Dokumen, bisa berasal dari 3 media penyimpannan, yaitu dari komputer, Google Drive, atau Dropbox. 4. Jika dokumen sudah di pilih, klik menu Up dan Tunggu beberapa saat sampai dokumen berhasil diunggah. 5. Jika file berhasil terunggah, klik menu Confirm (berwarna biru) dan menu Return to Assignment List. 6. Tunggu beberapa saat, ketika pemeriksaan dokumen sudah selesai, kamu bisa melihat hasilnya dengan klik menu View. Di tampilan View, bisa dilihat bagian mana saja yang terindikasi plagiasi atau sama dengan sumber lain. Jika sudah terindikasi kesamaan kata, kalimat, hingga sumber, segera melakukan revisi."
+        ]
+      },
+      {
+        "tag": "turnitin3",
+        "patterns": [
+          "Mengapa harus menggunakan turnitin ?"
+        ],
+        "responses": [
+          "1. Menjaga Orisinalitas dan Kualitas Artikel / Karya Ilmiah 2. Menghindari tindak kejahatan 3. Sebagai bentuk penghargaan terhadap karya orang lain 4. Menjaga reputasi dan nama baik Universitas dan Instansi"
+        ]
+      },
+      {
+        "tag": "turnitin4",
+        "patterns": [
+          "Website apa saja yang menyediakan turnitin ?"
+        ],
+        "responses": [
+          "1. Duplichecker 2. Small SEO Tools 3. PlagScan 4. Plagiarism Checker 5. Plagiarism Detector 6. Search Engine Reports"
+        ]
+      },
+      {
+        "tag": "turnitin5",
+        "patterns": [
+          "Apa saja kelebihan pada aplikasi turnitin ?"
+        ],
+        "responses": [
+          "1. Mampu mencegah plagiarisme dan bisa mendeteksi dari tulisan aslinya. Jadi setelah menggunakan dari layanan Turnitin, pengguna bisa mendeteksi originalitas tulisan. 2. Dapat mengecek dari komentar pemeriksa yang direkam atau diketik. 3. Menyediakan layanan umpan balik yang terperinci dan akurat untuk para pengguna tanpa khawatir dengan hasil anonim dari sistem tersebut."
+        ]
+      },
+      {
+        "tag": "turnitin6",
+        "patterns": [
+          "Apa saja kekurangan pada aplikasi turnitin ?"
+        ],
+        "responses": [
+          "1. Harus terkoneksi akses internet yang stabil dalam menjalankan situs layanan dari Turnitin. 2. Turnitin tidak dapat membedakan teks dengan perlakuan khusus seperti halnya dikutip dengan benar secara akurat. 3. Website seringkali mengalami down dan lambat sehingga perlu melakukan refresh dari website tersebut."
+        ]
+      },
+      {
+        "tag": "turnitin7",
+        "patterns": [
+          "File apa aja yang bisa digunakan pada turnitin ?"
+        ],
+        "responses": [
+          "File yang dapat digunakan tergantung pada website yang diakses, terkadang ada beberapa website yang tidak support suatu ekstensi file. Pada umumnya yang digunakan adalah .docx , .txt , .pdf , .xls dan doc"
+        ]
+      },
+      {
+        "tag": "turnitin8",
+        "patterns": [
+          "Bagaimana cara agar lolos turnitin ?"
+        ],
+        "responses": [
+          "1. Gunakan sinonim 2. Lampirkan sumber 3. HIndari pemakaian dokumen legal 4. Ubah urutan kata dalam kalimat 5. Tukar Huruf 6. Perbanyak gambar pada dokumen 7. Gunakan parafrase"
+        ]
+      },
+      {
+        "tag": "turnitin9",
+        "patterns": [
+          "Bagaimana bisa membuat akun Turnitin ?"
+        ],
+        "responses": [
+          "Pembuatan akun turnitin harus menggunakan email dari Udinus."
+        ]
+      },
+      {
+        "tag": "turnitin10",
+        "patterns": [
+          "Bagaimana cara mendapatkan Class ID & Enrollment Key ?"
+        ],
+        "responses": [
+          "Silahkan DM melalui Instagram @dinuslub atau WA admin perpustakaan dengan menyebutkan nama dan NIM"
+        ]
+      },
+      {
+        "tag": "absensi1",
+        "patterns": [
+          "Bagaimana proses Absensi pada perkuliahan semester pendek ?"
+        ],
+        "responses": [
+          "Absensi dilakukan secara manual yakni dengan menandatangani daftar hadir saat perkuliahan berlangsung."
+        ]
+      },
+      {
+        "tag": "absensi2",
+        "patterns": [
+          "Apa yang harus kita lakukan jika data absensi di SiAdin tidak sesuai ?"
+        ],
+        "responses": [
+          "Hubungi TU Fakultas."
+        ]
+      },
+      {
+        "tag": "absensi3",
+        "patterns": [
+          "Bagaimana proses Absensi pada perkuliahan reguler ?"
+        ],
+        "responses": [
+          "Absensi dilakukan secara manual yakni dengan menandatangani daftar hadir saat perkuliahan berlangsung."
+        ]
+      },
+      {
+        "tag": "absensi4",
+        "patterns": [
+          "Apa yang harus kita lakukan jika data absensi di SiAdin tidak sesuai ?"
+        ],
+        "responses": [
+          "Hubungi TU Fakultas."
+        ]
+      },
+      {
+        "tag": "pelaksanaan_semester_antara1",
+        "patterns": [
+          "Kapan waktu pelaksanaan Semester Antara ?"
+        ],
+        "responses": [
+          "Semester Antara diselenggarakan sekali setahun setelah akhir semester genap, sebelum semester ganjil berikutnya."
+        ]
+      },
+      {
+        "tag": "pelaksanaan_semester_antara2",
+        "patterns": [
+          "Berapa jumlah mahasiswa pada setiap mata kuliah yang dibuka di Semester Antara ?"
+        ],
+        "responses": [
+          "Jumlah peserta setiap mata kuliah Semester Antara minimal 10 mahasiswa."
+        ]
+      },
+      {
+        "tag": "pelaksanaan_semester_antara3",
+        "patterns": [
+          "Semester Antara dilaksanakan secara luring atau daring ?"
+        ],
+        "responses": [
+          "Pelaksanaan Semester Antara menyesuaikan dengan jadwal yang telah ditentukan di SiAdin"
+        ]
+      },
+      {
+        "tag": "pendaftaran_semester_antara1",
+        "patterns": [
+          "Dimana saya dapat mendaftar Semester Antara ?"
+        ],
+        "responses": [
+          "Pada SiAdin masing - masing, Tepatnya pada menu Akademik Mahasiswa."
+        ]
+      },
+      {
+        "tag": "pendaftaran_semester_antara2",
+        "patterns": [
+          "Dari mana mahasiswa mendapatkan informasi mengenai Semester Antara ?"
+        ],
+        "responses": [
+          "Mahasiswa dapat mendapatkan informasi Semester Antara melalui Group Whats Apps Program Studi, Sosial Media Udinus, dan Website SA (dinus.org/sa)"
+        ]
+      },
+      {
+        "tag": "pendaftaran_semester_antara3",
+        "patterns": [
+          "Apa syarat untuk mengikuti Semester Antara ?"
+        ],
+        "responses": [
+          "- Semester Antara dapat ditempuh oleh mahasiswa yang aktif pada semester genap. - Semester Antara ditujukan untuk mata kuliah yang sudah ditawarkan."
+        ]
+      },
+      {
+        "tag": "pendaftaran_semester_antara4",
+        "patterns": [
+          "Berapa biaya yang dikenakan untuk Semester Antara ?"
+        ],
+        "responses": [
+          "Untuk sementara ini, biaya yang dikenakan Semester Antara ialah sebesar Rp. 250.000 / SKS"
+        ]
+      },
+      {
+        "tag": "proses_krs1",
+        "patterns": [
+          "Bolehkah semester 3 mengikuti Semester Antara ?"
+        ],
+        "responses": [
+          "Boleh"
+        ]
+      },
+      {
+        "tag": "proses_krs2",
+        "patterns": [
+          "Apa syarat dari mata kuliah yang bisa diambil di Semester Antara ?"
+        ],
+        "responses": [
+          "Mata kuliah yang sudah pernah diambil sebelumnya di perkuliahan, minimal bernilai C, & peminat memenuhi kuota kelas"
+        ]
+      },
+      {
+        "tag": "proses_krs3",
+        "patterns": [
+          "Apakah mata kuliah yang BELUM pernah diambil, bisa diambil di Semester Antara ?"
+        ],
+        "responses": [
+          "Tidak, mata kuliah yang bisa diambil di Semester Antara adalah mata kuliah yang pernah diambil sebelumnya"
+        ]
+      },
+      {
+        "tag": "proses_krs4",
+        "patterns": [
+          "Apa itu Semester Antara (SA) ?"
+        ],
+        "responses": [
+          "Semester Antara adalah perkuliahan diantara akhir semester genap tahun ajaran tertentu dan menjelang pelaksanaan semester ganjil tahun ajaran berikutnya."
+        ]
+      },
+      {
+        "tag": "proses_krs5",
+        "patterns": [
+          "Berapa total SKS atau mata kuliah yang bisa diambil sewaktu input KRS SA ?"
+        ],
+        "responses": [
+          "10 SKS atau 4 mata kuliah"
+        ]
+      },
+      {
+        "tag": "proses_krs6",
+        "patterns": [
+          "Dimana saya bisa melihat nama dosen wali saya ?"
+        ],
+        "responses": [
+          "Di siadin"
+        ]
+      },
+      {
+        "tag": "ujian_tengah_semester1",
+        "patterns": [
+          "Kapan Ujian Tengah Semester (UTS) SA dilaksanakan ?"
+        ],
+        "responses": [
+          "Sesuai jadwal yang ada di Siadin pada menu Akademik"
+        ]
+      },
+      {
+        "tag": "pendaftaran_semester_pendek1",
+        "patterns": [
+          "Dimana saya dapat mendaftar Semester Pendek ?"
+        ],
+        "responses": [
+          "Pada SiAdin masing - masing, Tepatnya pada menu Akademik Mahasiswa."
+        ]
+      },
+      {
+        "tag": "ujian_tengah_dan_akhir_semester1",
+        "patterns": [
+          "Kapan ujian tengah semester dan akhir semester di laksanakan ?"
+        ],
+        "responses": [
+          "UTS dilaksanakan saat tengah semester sedangkan UAS dilaksanan saat akhir semester."
+        ]
+      },
+      {
+        "tag": "ujian_tengah_dan_akhir_semester2",
+        "patterns": [
+          "Apa saja syarat untuk mengikuti ujian tengah dan akhir semester ?"
+        ],
+        "responses": [
+          "Menyelesaikan administrasi keuangan dan Prosentase kehadiran minimal 75%"
+        ]
+      },
+      {
+        "tag": "ujian_tengah_dan_akhir_semester3",
+        "patterns": [
+          "Dimana kita bisa mendapatkan kartu ujian ?"
+        ],
+        "responses": [
+          "Di SiAdin, Tepatnya pada menu akademik mahasiswa"
+        ]
+      },
+      {
+        "tag": "ujian_tengah_dan_akhir_semester4",
+        "patterns": [
+          "Apa saja syarat-syarat pada saat proses ujian tengah dan akhir semester dimulai ?"
+        ],
+        "responses": [
+          "Membawa kartu ujian, KTM, memakai baju berkerah dan bersepatu."
+        ]
+      },
+      {
+        "tag": "ujian_tengah_dan_akhir_semester5",
+        "patterns": [
+          "Apakah ada ujian susulan ?"
+        ],
+        "responses": [
+          "Ketersediaan ujian susulan sesuai dengan kebijakan masing - masing dosen."
+        ]
+      },
+      {
+        "tag": "ujian_tengah_dan_akhir_semester6",
+        "patterns": [
+          "Kapan Ujian Praktek dilaksanakan ?"
+        ],
+        "responses": [
+          "Waktu Ujian Praktek ditentukan oleh masing - masing dosen."
+        ]
+      },
+      {
+        "tag": "mbkm1",
+        "patterns": [
+          "Apa itu kegiatan MBKM ?"
+        ],
+        "responses": [
+          "Kegiatan MBKM merupakan merupakan bagian dari kebijakan Merdeka Belajar oleh Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi Republik Indonesia yang memberikan kesempaatan bagi mahasiswa/i untuk mengasah kemampuan sesuai bakat dan minat dengan terjun langsung ke dunia kerja sebagai persiapan karier masa depan."
+        ]
+      },
+      {
+        "tag": "mbkm2",
+        "patterns": [
+          "Kapan mahasiswa dapat mengikuti kegiatan MBKM ?"
+        ],
+        "responses": [
+          "Kegiatan MBKM dapat dilaksanakan untuk mahasiswa minimal semester 5"
+        ]
+      },
+      {
+        "tag": "mbkm3",
+        "patterns": [
+          "Apa saja program yang ada di MBKM ?"
+        ],
+        "responses": [
+          "Saat ini MBKM memiliki 12 program antara lain : 1. Bangkit by Google, Goto, Traveloka 2. IISMA (Indonesian International Student Mobility Awards) 3. Kampus Mengajar 4. Kementerian ESDM - GERILYA 5. Magang 6. Membangun Desa (KKN Tematik) 7. Pejuang Muda Kampus Merdeka 8. Pertukaran Mahasiswa Merdeka 9. Proyek Kemanusiaan 10. Riset atau Penelitian 11. Studi Independen 12. Wirausaha Merdeka"
+        ]
+      },
+      {
+        "tag": "mbkm4",
+        "patterns": [
+          "Apakah kegiatan MBKM dapat mengkonversi mata kuliah yang diambil ?"
+        ],
+        "responses": [
+          "Bisa, kegiatan MBKM dapat mengkonversi sks sebesar 20 sks"
+        ]
+      },
+      {
+        "tag": "mbkm5",
+        "patterns": [
+          "Berapa kali bisa mengikuti program MBKM ?"
+        ],
+        "responses": [
+          "Program MBKM dapat diikuti 2 kali"
+        ]
+      },
+      {
+        "tag": "mbkm6",
+        "patterns": [
+          "Bisakah apabila tidak lolos kemudian mendaftar kembali program MBKM ?"
+        ],
+        "responses": [
+          "Bisa"
+        ]
+      },
+      {
+        "tag": "mbkm7",
+        "patterns": [
+          "Kegiatan MBKM dilaksanakan secara daring atau luring ?"
+        ],
+        "responses": [
+          "Setiap mitra memiliki kebijakan masing - masing dalam pelaksanaan kegiatan tersebut"
+        ]
+      },
+      {
+        "tag": "mbkm8",
+        "patterns": [
+          "Apa saja keuntungan yang didapatkan, apabila mengikuti MBKM ?"
+        ],
+        "responses": [
+          "1. Konversi SKS : Kegiatan praktik di lapangan akan dikonversi menjadi SKS 2. Eksplorasi : Eksplorasi pengetahuan dan kemampuan di lapangan selama lebih dari satu semester 3. Fleksibel : Belajar dan memperluas jaringan di luar program studi atau kampus asal 4. Pengalaman : Menimba ilmu secara langsung dari mitra berkualitas dan terkemuka."
+        ]
+      },
+      {
+        "tag": "mbkm9",
+        "patterns": [
+          "Bagaimana cara mengikuti kegiatan MBKM ?"
+        ],
+        "responses": [
+          "Mengikuti sosialisasi MBKM yang diselenggarakan oleh Fakultas untuk mengetahui syarat dan ketentuan yang harus disiapkan oleh mahasiswa."
+        ]
+      },
+      {
+        "tag": "mbkm10",
+        "patterns": [
+          "Dari mana mendapatkan informasi sosialisasi MBKM ?"
+        ],
+        "responses": [
+          "Mahasiswa dapat mendapatkan informasi sosialisasi MBKM melalui grup program studi masing - masing."
+        ]
+      },
+      {
+        "tag": "mbkm11",
+        "patterns": [
+          "Apa saja persyaratan untuk mengikuti kegiatan MBKM ?"
+        ],
+        "responses": [
+          "1. Mahasiswa aktif jenjang D4/S1 (minimal semester 5) 2. Merupakan mahasiswa aktif (belum yudisium) 3. Mahasiswa wajib mempersiapkan dan mengunggah Curriculum Vitae (CV), Transkrip Nilai, Surat Rekomendasi Universitas, dan Surat Pernyataan Tanggungjawab Mutlak (SPTJM) 4. Mahasiswa penerima beasiswa Bidik Misi/ penerima KIP boleh mengikuti program magang dengan ketentuan uang saku yang diterima merupakan selisih dari uang yang diterima dari Bidik Misi"
+        ]
+      },
+      {
+        "tag": "mbkm12",
+        "patterns": [
+          "Berapa lama kegiatan MBKM berjalan ?"
+        ],
+        "responses": [
+          "Kegiatan MBKM berjalan selama 1 semester"
+        ]
+      },
+      {
+        "tag": "mbkm13",
+        "patterns": [
+          "Apakah kegiatan MBKM bisa memilih mitra untuk ditempati ?"
+        ],
+        "responses": [
+          "Bisa, peserta dapat memilih mitra sesuai dengan bidang mereka namun harus melalui tahap seleksi terlebih dahulu untuk bisa diterima"
+        ]
+      },
+      {
+        "tag": "mbkm14",
+        "patterns": [
+          "Dimana bisa mendaftar MBKM ?"
+        ],
+        "responses": [
+          "Di website [kampusmerdeka.kemdikbud.go.id](http://kampusmerdeka.kemdikbud.go.id/)"
+        ]
+      },
+      {
+        "tag": "mbkm15",
+        "patterns": [
+          "Apa saja yang dikerjakan saat MBKM ?"
+        ],
+        "responses": [
+          "Peserta mengerjakan aktivitas sesuai dengan program yang dia pilih serta mengisi log mbkm sebagai bukti aktivitas selama 1 semester."
+        ]
+      },
+      {
+        "tag": "tanggal_pelaksanaan1",
+        "patterns": [
+          "Kapan pendaftaran wisuda di buka ?"
+        ],
+        "responses": [
+          "Dapat dilihat di web wisuda (wisuda.dinus.ac.id)"
+        ]
+      },
+      {
+        "tag": "pembayaran_wisuda1",
+        "patterns": [
+          "Bagaimana membayar administrasi wisuda ?"
+        ],
+        "responses": [
+          "Pembayaran WISUDA menggunakan Virtual Account (VA) Format Nomor Rekening Virtual Account (VA) menggunakan Konversi NIM Contoh: A=1 B=2 C=3 D=4 E=5 P6 Kode UDINUS : 0102 Kode VA : 01 NIM : A11.2014.08545 Nomor VA : 01+1+11+14+08545 Nomor VA Menjadi : 011111408545"
+        ]
+      },
+      {
+        "tag": "pembayaran_wisuda2",
+        "patterns": [
+          "Bagaimana mekanisme membayar menggunakan Vitual Account (VA) ?"
+        ],
+        "responses": [
+          "Mekanisme pembayaran dapat melalui ATM dengan memilih menu \"Open Payment\" kemudian input Kode UDINUS \"0102\" setelah itu masukkan nomor Virtual Account (VA) Bank Jateng - Melalui Teller Bank Jateng : disampaikan ke teller pembayaran menggunakan VA / Open Payment, kemudian sampaikan VA nya (contoh : 01+1111408545) akan muncul nama mahasiswa yang bersangkutan. - Melalui ATM atau Internet Banking : Transfer ke Rekening Bank Jateng ( contoh : 0102+01+1111408545) sesuai nomor VA masing-masing, nanti akan muncul nama mahasiswa yang bersangkutan."
+        ]
+      },
+      {
+        "tag": "pembayaran_wisuda3",
+        "patterns": [
+          "Bagaimana apabila ada kendala pembayaran wisuda ?"
+        ],
+        "responses": [
+          "Silahkan menghubungi kontak di bawah ini : FIK Bapak Arif : 085157877084 Bapak Saiful : 085640617083 FEB & FIB Bapak Adli : 08125532554 FKES & FT Bapak Zulfikar : 081325305645 Pascasarjana Bapak Fadil : 089611359411"
+        ]
+      },
+      {
+        "tag": "syarat_pendaftaran_wisuda1",
+        "patterns": [
+          "Apa saja persyaratan pendaftaran wisuda ?"
+        ],
+        "responses": [
+          "1.pastikan anda sudah masuk data yudisium 2.membayar pendaftaran wisuda 3.mendaftar di web dinus.ac.id/wisuda 4.mengukur toga di BIAK 5.verifikasi pendaftaran wisuda(membawa print out formulir wisuda, fc. ijazah legalisir, bukti TA, slip pembayaran wisuda)"
+        ]
+      },
+      {
+        "tag": "syarat_pendaftaran_wisuda2",
+        "patterns": [
+          "Apakah stopmap yang digunakan untuk pengumpulan berkas wisuda itu sama ?"
+        ],
+        "responses": [
+          "Beda, Stopmap Biru : FIK dan Pasca Sarjana Stopmap Kuning : Ekonomi Stopmap Hijau : Kesehatan Stopmap Merah : Fakultas Ilmu Budaya dan Fakultas Teknik"
+        ]
+      },
+      {
+        "tag": "syarat_pendaftaran_wisuda3",
+        "patterns": [
+          "Bagaimana Prosedur pendaftaran secara daring ?"
+        ],
+        "responses": [
+          "1. Memastikan bahwa Skripsi/Tugas/Proyek Akhir sudah diverifikasi oleh koordinator fakultas masing-masing. 2. Calon wisudawan cek namanya sudah tercantum didaftar yudisium melalui Menu Informasi dan menu Yudisium/Peserta Wisuda https://wisuda2.dinus.ac.id/ 3. Mengisi data pendaftaran wisuda di https://wisuda2.dinus.ac.id/ dan mengunggah berkas berikut : - File scan ijazah asli terakhir - File scan asli Kartu Keluarga (KK) - File scan asli KTP 4. Syarat pembayaran Wisuda: - Sudah bisa login di web wisuda (sudah di yudisium) - Unggah berkas yang diminta dan klik tombol validasi. - Kemudian masuk menu validasi pendaftaran dan klik konfirmasi baru terbit tagihan VA wisuda. 5. Melakukan Pembayaran WISUDA melalui Virtual Account (VA)"
+        ]
+      },
+      {
+        "tag": "mekanisme_wisuda1",
+        "patterns": [
+          "Dimana saya bisa mendaftar wisuda ?"
+        ],
+        "responses": [
+          "Di website wisuda (https://wisuda.dinus.ac.id/)"
+        ]
+      },
+      {
+        "tag": "mekanisme_wisuda2",
+        "patterns": [
+          "Dimana saya dapat mengambil undangan wisuda ?"
+        ],
+        "responses": [
+          "Biro Akademik gedung A lantai 1"
+        ]
+      },
+      {
+        "tag": "mekanisme_wisuda3",
+        "patterns": [
+          "Berapa kali wisuda dilaksanakan dalam setahun ?"
+        ],
+        "responses": [
+          "3 kali"
+        ]
+      },
+      {
+        "tag": "mekanisme_wisuda4",
+        "patterns": [
+          "Dimana wisuda biasanya dilaksanakan ?"
+        ],
+        "responses": [
+          "Di Patra Semarang Convention Hotel"
+        ]
+      },
+      {
+        "tag": "mekanisme_wisuda5",
+        "patterns": [
+          "Dimana Saya bisa mendapatkan formulir pendaftaran wisuda ?"
+        ],
+        "responses": [
+          "dinus.ac.id/wisuda"
+        ]
+      },
+      {
+        "tag": "mekanisme_wisuda6",
+        "patterns": [
+          "Bagaimana mekanisme mengikuti Wisuda ?"
+        ],
+        "responses": [
+          "1) Terdaftar di Yudisium 2) Melihat pengumuman (tanggal-tanggal penting, syarat-syarat penting lainnya) 3) Mendaftar di Web wisuda (wisuda.dinus.ac.id), hanya yang terdata di daftar yudisium. Isian wajib lengkap 4) Melakukan foto diri dengan aturan yang telah ditentukan karena foto tsb digunakan untuk ijazah dan katalog wisuda 5) Mengikuti gladi bersih 6) Mengikuti acara wisuda yang telah ditentukan dengan berdandan yang rapi dan bersih"
+        ]
+      },
+      {
+        "tag": "mekanisme_wisuda7",
+        "patterns": [
+          "Bagaimana mekanisme untuk terdaftar di daftar Yudisium ?"
+        ],
+        "responses": [
+          "1) Telah selesai ujian Skripsi, 2) Tidak ada nilai E dan nilai Kosong serta nilai D sebanyak 3 mata kuliah pada transkrip akhir dengan total sks yang telah ditentukan, 3) Dikeluarkan oleh fakultas yang ditandatangi Dekan,"
+        ]
+      },
+      {
+        "tag": "mekanisme_wisuda8",
+        "patterns": [
+          "Dimana saya mendapatkan informasi pendaftaran wisuda ?"
+        ],
+        "responses": [
+          "Silahkan cek website https://wisuda2.dinus.ac.id"
+        ]
+      },
+      {
+        "tag": "mekanisme_wisuda9",
+        "patterns": [
+          "Dimana wisuda dilaksanakan saat pandemi covid-19 ?"
+        ],
+        "responses": [
+          "Wisuda dilaksanakan secara online melalui youtube TVKU"
+        ]
+      },
+      {
+        "tag": "udinus1",
+        "patterns": [
+          "Apa itu Universitas Dian Nuswantoro ?"
+        ],
+        "responses": [
+          "Universitas Dian Nuswantoro adalah salah satu perguruan tinggi swasta berakreditasi institusi A yang berada di Semarang, Indonesia. Berdiri pada tahun 1990. Rektor pada tahun 2010 adalah Prof. Dr. Ir. Edi Noersasongko M. Kom."
+        ]
+      },
+      {
+        "tag": "udinus2",
+        "patterns": [
+          "Seperti apa sejarah Universitas Dian Nuswantoro ?"
+        ],
+        "responses": [
+          "Pada tahun 1986, didirikan sebuah lembaga kursus komputer IMKA yang berlokasi di kota Semarang. Karena kegigihannya dalam membuka dan menciptakan peluang pasar serta ketahanannya dalam menghadapi pelbagai rintangan, IMKA berhasil tumbuh dan berkembang serta menyebar ke beberapa kota besar di Pulau Jawa, seperti Semarang, Surakarta, Yogyakarta, Surabaya, Bandung dan Jakarta. Selengkapnya seputar sejarah UDINUS di https://dinus.ac.id/about/52/history-dinus"
+        ]
+      },
+      {
+        "tag": "udinus3",
+        "patterns": [
+          "Apa saja visi misi Universitas Dian Nuswantoro ?"
+        ],
+        "responses": [
+          "Pada tahun 1986, didirikan sebuah lembaga kursus komputer IMKA yang berlokasi di kota Semarang. Karena kegigihannya dalam membuka dan menciptakan peluang pasar serta ketahanannya dalam menghadapi pelbagai rintangan, IMKA berhasil tumbuh dan berkembang serta menyebar ke beberapa kota besar di Pulau Jawa, seperti Semarang, Surakarta, Yogyakarta, Surabaya, Bandung dan Jakarta. Selengkapnya seputar sejarah UDINUS di https://dinus.ac.id/about/52/history-dinus"
+        ]
+      },
+      {
+        "tag": "udinus4",
+        "patterns": [
+          "Dimana letak Universitas Dian Nuswantoro ?"
+        ],
+        "responses": [
+          "Universitas Dian Nuswantoro (Universitas Dinus) terletak di pusat kota Semarang, Jawa Tengah, Indonesia. Terletak di dekat bundaran Tugu Muda, Jl. Imam Bonjol 207 dan Jl. Nakula I no 5-11 Semarang tepatnya. Dapat diakses dengan mudah baik dengan kendaraan umum maupun kendaraan pribadi. Dibutuhkan sekitar 12 menit dari Bandara Ahmad Yani. Terletak di area seluas 4,5 Ha, kampus ini dikelilingi oleh area perkantoran, pendidikan, gedung komersial dan perumahan."
+        ]
+      },
+      {
+        "tag": "udinus5",
+        "patterns": [
+          "Apa saja fasilitias yang dimiliki Universitas Dian Nuswantoro ?"
+        ],
+        "responses": [
+          "UDINUS memiliki berbagai fasilitas yang diantaranya seperti lab fotografi, perpustakaan, sistem informasi, ruang rapat H.1, kafetaria, klinik, masjid, pusat kegiatan mahasiswa, Turnitin, ruang kelas nyaman, internet cepat, laboratorium, bus UDINUS, rooftop garden, beasiswa, lapangan basket, kalender akademik dinus, tenda kewirausahaan dinus, unit kegiatan dan organisasi mahasiswa, akses jurnal berlangganan, wall climbing, lab kesehatan, dinus tax center, lembaga bahasa ILCS dan CFLT, peluang studi lanjutan luar negeri, lab industri, ujian online, jadwal online, dan ruang aula. Selengkapnya di https://dinus.ac.id/facility"
+        ]
+      }
+    ]
+}

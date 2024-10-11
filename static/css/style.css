@@ -1,0 +1,81 @@
+hr {
+    color: #fcb900;
+}
+
+.nav-base-color {
+    background-color: #0e4584;
+}
+
+.nav-base-color a {
+    color: white;
+    font-weight: 600;
+}
+
+.nav-container,
+.navbar-container {
+    background-color: #114d91;
+    min-width: 100%;
+}
+
+.nav-btn {
+    color: white;
+    height: 50%;
+    font-weight: 600;
+}
+
+.navbar-brand,
+.navbar-brand img {
+    width: 100%;
+    height: 100%;
+}
+
+.nav-flex-basis {
+    flex-basis: 100% !important;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: white;
+    font-weight: 600;
+}
+
+.media-section {
+    background-color: #0e4584;
+    color: white;
+}
+
+.media-img {
+    width: 100%;
+}
+
+.info-detail {
+    font-weight: 800;
+}
+
+.media-subcard h5 {
+    color: #0C71C3;
+}
+
+.media-subcard span {
+    color: #E09900;
+    font-weight: 800;
+}
+
+.media-subcard p {
+    color: black;
+}
+
+.btn-media {
+    background-color: white;
+    color: #0C71C3;
+    font-weight: 600;
+}
+
+.footer-color {
+    background-color: #02366b;
+    color: white;
+    font-weight: 600;
+}
+
+.carousel-item {
+    position: static;
+}
